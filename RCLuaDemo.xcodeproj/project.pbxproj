@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57D2AB0BF0F123B64F6D0B17 /* libPods-RCLuaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1168DDDF017E3ADF04B969D /* libPods-RCLuaDemo.a */; };
+		8B11A6781D23B22E0013AA2F /* Button.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B11A6771D23B22E0013AA2F /* Button.lua */; };
+		8B23D0C71D22225E00CDE6F2 /* RCLuaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B23D0C61D22225E00CDE6F2 /* RCLuaViewController.m */; };
+		8B59D6481D239EB000CB8AAF /* ImageView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B59D6471D239EB000CB8AAF /* ImageView.lua */; };
+		8B59D64A1D239EBE00CB8AAF /* ScrollView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B59D6491D239EBE00CB8AAF /* ScrollView.lua */; };
+		8B59D64C1D239ECA00CB8AAF /* TableView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B59D64B1D239ECA00CB8AAF /* TableView.lua */; };
+		8B9F12071D2214C000C81B0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F12061D2214C000C81B0C /* main.m */; };
+		8B9F120A1D2214C000C81B0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F12091D2214C000C81B0C /* AppDelegate.m */; };
+		8B9F120D1D2214C000C81B0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F120C1D2214C000C81B0C /* ViewController.m */; };
+		8B9F12101D2214C000C81B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F120E1D2214C000C81B0C /* Main.storyboard */; };
+		8B9F12121D2214C000C81B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F12111D2214C000C81B0C /* Assets.xcassets */; };
+		8B9F12151D2214C000C81B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9F12131D2214C000C81B0C /* LaunchScreen.storyboard */; };
+		8BAD607B1D23BECE00991FA6 /* button0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD60721D23BECE00991FA6 /* button0.png */; };
+		8BAD607C1D23BECE00991FA6 /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD60731D23BECE00991FA6 /* button1.png */; };
+		8BAD607D1D23BECE00991FA6 /* img1.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD60741D23BECE00991FA6 /* img1.tiff */; };
+		8BAD607E1D23BECE00991FA6 /* img10.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD60751D23BECE00991FA6 /* img10.tiff */; };
+		8BAD607F1D23BECE00991FA6 /* img13.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD60761D23BECE00991FA6 /* img13.tiff */; };
+		8BAD60801D23BECE00991FA6 /* img16.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD60771D23BECE00991FA6 /* img16.tiff */; };
+		8BAD60811D23BECE00991FA6 /* img4.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD60781D23BECE00991FA6 /* img4.tiff */; };
+		8BAD60821D23BECE00991FA6 /* img7.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD60791D23BECE00991FA6 /* img7.tiff */; };
+		8BAD60831D23BECE00991FA6 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD607A1D23BECE00991FA6 /* snow.png */; };
+		8BAD60851D23BEDA00991FA6 /* IconFontLabel.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD60841D23BEDA00991FA6 /* IconFontLabel.lua */; };
+		8BAD60871D23D32200991FA6 /* imageAnimate.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD60861D23D32200991FA6 /* imageAnimate.lua */; };
+		8BAD608E1D23D6B300991FA6 /* Alert.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8BAD608D1D23D6B300991FA6 /* Alert.lua */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		790770711898C66BB5B13DAA /* Pods-RCLuaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCLuaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCLuaDemo/Pods-RCLuaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8B11A6771D23B22E0013AA2F /* Button.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Button.lua; sourceTree = "<group>"; };
+		8B23D0C51D22225E00CDE6F2 /* RCLuaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLuaViewController.h; sourceTree = "<group>"; };
+		8B23D0C61D22225E00CDE6F2 /* RCLuaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLuaViewController.m; sourceTree = "<group>"; };
+		8B59D6471D239EB000CB8AAF /* ImageView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ImageView.lua; sourceTree = "<group>"; };
+		8B59D6491D239EBE00CB8AAF /* ScrollView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ScrollView.lua; sourceTree = "<group>"; };
+		8B59D64B1D239ECA00CB8AAF /* TableView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TableView.lua; sourceTree = "<group>"; };
+		8B9F12021D2214C000C81B0C /* RCLuaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCLuaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9F12061D2214C000C81B0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B9F12081D2214C000C81B0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B9F12091D2214C000C81B0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B9F120B1D2214C000C81B0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B9F120C1D2214C000C81B0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B9F120F1D2214C000C81B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B9F12111D2214C000C81B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B9F12141D2214C000C81B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B9F12161D2214C000C81B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BAD60721D23BECE00991FA6 /* button0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button0.png; sourceTree = "<group>"; };
+		8BAD60731D23BECE00991FA6 /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
+		8BAD60741D23BECE00991FA6 /* img1.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = img1.tiff; sourceTree = "<group>"; };
+		8BAD60751D23BECE00991FA6 /* img10.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = img10.tiff; sourceTree = "<group>"; };
+		8BAD60761D23BECE00991FA6 /* img13.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = img13.tiff; sourceTree = "<group>"; };
+		8BAD60771D23BECE00991FA6 /* img16.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = img16.tiff; sourceTree = "<group>"; };
+		8BAD60781D23BECE00991FA6 /* img4.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = img4.tiff; sourceTree = "<group>"; };
+		8BAD60791D23BECE00991FA6 /* img7.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = img7.tiff; sourceTree = "<group>"; };
+		8BAD607A1D23BECE00991FA6 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		8BAD60841D23BEDA00991FA6 /* IconFontLabel.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IconFontLabel.lua; sourceTree = "<group>"; };
+		8BAD60861D23D32200991FA6 /* imageAnimate.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = imageAnimate.lua; sourceTree = "<group>"; };
+		8BAD608D1D23D6B300991FA6 /* Alert.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Alert.lua; sourceTree = "<group>"; };
+		9F347C57CC37591353464EAF /* Pods-RCLuaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCLuaDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCLuaDemo/Pods-RCLuaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B1168DDDF017E3ADF04B969D /* libPods-RCLuaDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCLuaDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B9F11FF1D2214C000C81B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D2AB0BF0F123B64F6D0B17 /* libPods-RCLuaDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B23D0C91D224B6100CDE6F2 /* Lua */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD608D1D23D6B300991FA6 /* Alert.lua */,
+				8B11A6771D23B22E0013AA2F /* Button.lua */,
+				8BAD60841D23BEDA00991FA6 /* IconFontLabel.lua */,
+				8BAD60861D23D32200991FA6 /* imageAnimate.lua */,
+				8B59D6471D239EB000CB8AAF /* ImageView.lua */,
+				8B59D6491D239EBE00CB8AAF /* ScrollView.lua */,
+				8B59D64B1D239ECA00CB8AAF /* TableView.lua */,
+				8BAD60711D23BECE00991FA6 /* Source */,
+			);
+			path = Lua;
+			sourceTree = "<group>";
+		};
+		8B9F11F91D2214C000C81B0C = {
+			isa = PBXGroup;
+			children = (
+				8B9F12041D2214C000C81B0C /* RCLuaDemo */,
+				8B9F12031D2214C000C81B0C /* Products */,
+				8BD41F619B3A9EB1EF3E065F /* Pods */,
+				FA756F0732AC95ED42F1AB5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B9F12031D2214C000C81B0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F12021D2214C000C81B0C /* RCLuaDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B9F12041D2214C000C81B0C /* RCLuaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8B23D0C91D224B6100CDE6F2 /* Lua */,
+				8B9F12081D2214C000C81B0C /* AppDelegate.h */,
+				8B9F12091D2214C000C81B0C /* AppDelegate.m */,
+				8B9F120B1D2214C000C81B0C /* ViewController.h */,
+				8B9F120C1D2214C000C81B0C /* ViewController.m */,
+				8B23D0C51D22225E00CDE6F2 /* RCLuaViewController.h */,
+				8B23D0C61D22225E00CDE6F2 /* RCLuaViewController.m */,
+				8B9F120E1D2214C000C81B0C /* Main.storyboard */,
+				8B9F12111D2214C000C81B0C /* Assets.xcassets */,
+				8B9F12131D2214C000C81B0C /* LaunchScreen.storyboard */,
+				8B9F12161D2214C000C81B0C /* Info.plist */,
+				8B9F12051D2214C000C81B0C /* Supporting Files */,
+			);
+			path = RCLuaDemo;
+			sourceTree = "<group>";
+		};
+		8B9F12051D2214C000C81B0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B9F12061D2214C000C81B0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BAD60711D23BECE00991FA6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8BAD60721D23BECE00991FA6 /* button0.png */,
+				8BAD60731D23BECE00991FA6 /* button1.png */,
+				8BAD60741D23BECE00991FA6 /* img1.tiff */,
+				8BAD60751D23BECE00991FA6 /* img10.tiff */,
+				8BAD60761D23BECE00991FA6 /* img13.tiff */,
+				8BAD60771D23BECE00991FA6 /* img16.tiff */,
+				8BAD60781D23BECE00991FA6 /* img4.tiff */,
+				8BAD60791D23BECE00991FA6 /* img7.tiff */,
+				8BAD607A1D23BECE00991FA6 /* snow.png */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8BD41F619B3A9EB1EF3E065F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				790770711898C66BB5B13DAA /* Pods-RCLuaDemo.debug.xcconfig */,
+				9F347C57CC37591353464EAF /* Pods-RCLuaDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FA756F0732AC95ED42F1AB5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1168DDDF017E3ADF04B969D /* libPods-RCLuaDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B9F12011D2214C000C81B0C /* RCLuaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9F12191D2214C000C81B0C /* Build configuration list for PBXNativeTarget "RCLuaDemo" */;
+			buildPhases = (
+				311BA090B7D159811BE8EFFC /* [CP] Check Pods Manifest.lock */,
+				8B9F11FE1D2214C000C81B0C /* Sources */,
+				8B9F11FF1D2214C000C81B0C /* Frameworks */,
+				8B9F12001D2214C000C81B0C /* Resources */,
+				83ADAE99A5961795A9703B74 /* [CP] Embed Pods Frameworks */,
+				F393CC80BF33B5BDF311BCDE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCLuaDemo;
+			productName = RCLuaDemo;
+			productReference = 8B9F12021D2214C000C81B0C /* RCLuaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B9F11FA1D2214C000C81B0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rc.com.ltd;
+				TargetAttributes = {
+					8B9F12011D2214C000C81B0C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B9F11FD1D2214C000C81B0C /* Build configuration list for PBXProject "RCLuaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B9F11F91D2214C000C81B0C;
+			productRefGroup = 8B9F12031D2214C000C81B0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B9F12011D2214C000C81B0C /* RCLuaDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B9F12001D2214C000C81B0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B59D64A1D239EBE00CB8AAF /* ScrollView.lua in Resources */,
+				8B9F12151D2214C000C81B0C /* LaunchScreen.storyboard in Resources */,
+				8BAD60831D23BECE00991FA6 /* snow.png in Resources */,
+				8BAD608E1D23D6B300991FA6 /* Alert.lua in Resources */,
+				8BAD607F1D23BECE00991FA6 /* img13.tiff in Resources */,
+				8BAD60851D23BEDA00991FA6 /* IconFontLabel.lua in Resources */,
+				8BAD60811D23BECE00991FA6 /* img4.tiff in Resources */,
+				8BAD60871D23D32200991FA6 /* imageAnimate.lua in Resources */,
+				8BAD607B1D23BECE00991FA6 /* button0.png in Resources */,
+				8B59D6481D239EB000CB8AAF /* ImageView.lua in Resources */,
+				8BAD607D1D23BECE00991FA6 /* img1.tiff in Resources */,
+				8B11A6781D23B22E0013AA2F /* Button.lua in Resources */,
+				8BAD607C1D23BECE00991FA6 /* button1.png in Resources */,
+				8BAD607E1D23BECE00991FA6 /* img10.tiff in Resources */,
+				8B59D64C1D239ECA00CB8AAF /* TableView.lua in Resources */,
+				8BAD60801D23BECE00991FA6 /* img16.tiff in Resources */,
+				8B9F12121D2214C000C81B0C /* Assets.xcassets in Resources */,
+				8B9F12101D2214C000C81B0C /* Main.storyboard in Resources */,
+				8BAD60821D23BECE00991FA6 /* img7.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		311BA090B7D159811BE8EFFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83ADAE99A5961795A9703B74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCLuaDemo/Pods-RCLuaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F393CC80BF33B5BDF311BCDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCLuaDemo/Pods-RCLuaDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B9F11FE1D2214C000C81B0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B9F120D1D2214C000C81B0C /* ViewController.m in Sources */,
+				8B9F120A1D2214C000C81B0C /* AppDelegate.m in Sources */,
+				8B23D0C71D22225E00CDE6F2 /* RCLuaViewController.m in Sources */,
+				8B9F12071D2214C000C81B0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B9F120E1D2214C000C81B0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B9F120F1D2214C000C81B0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B9F12131D2214C000C81B0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B9F12141D2214C000C81B0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B9F12171D2214C000C81B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B9F12181D2214C000C81B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B9F121A1D2214C000C81B0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790770711898C66BB5B13DAA /* Pods-RCLuaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RCLuaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rc.RCLuaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B9F121B1D2214C000C81B0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F347C57CC37591353464EAF /* Pods-RCLuaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RCLuaDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rc.RCLuaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B9F11FD1D2214C000C81B0C /* Build configuration list for PBXProject "RCLuaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9F12171D2214C000C81B0C /* Debug */,
+				8B9F12181D2214C000C81B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9F12191D2214C000C81B0C /* Build configuration list for PBXNativeTarget "RCLuaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B9F121A1D2214C000C81B0C /* Debug */,
+				8B9F121B1D2214C000C81B0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B9F11FA1D2214C000C81B0C /* Project object */;
+}

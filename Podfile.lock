@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - LuaViewSDK (2.1.0.6)
+  - RCExtension (1.0.0):
+    - AFNetworking (~> 3.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - LuaViewSDK (from `https://github.com/alibaba/LuaViewSDK.git`)
+  - RCExtension (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  LuaViewSDK:
+    :git: https://github.com/alibaba/LuaViewSDK.git
+
+CHECKOUT OPTIONS:
+  LuaViewSDK:
+    :commit: d0eeba099970923cd5962d9bdec612c8fc0ba3d2
+    :git: https://github.com/alibaba/LuaViewSDK.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  LuaViewSDK: 710548f6128763c85efb0103b8ecc3d48a026786
+  RCExtension: c976f8edc370675dada911c86ae11c623c992ad3
+
+PODFILE CHECKSUM: 19bb957a63a6e5d86dfc1795cb35b0bf35c69be7
+
+COCOAPODS: 1.0.1
