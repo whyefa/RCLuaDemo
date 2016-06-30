@@ -10,35 +10,29 @@
 		002074491BE59C6F09ED3A7576ADFDF3 /* LVHeads.m in Sources */ = {isa = PBXBuildFile; fileRef = 122A86A85A5DABB6BF5AA477511A587C /* LVHeads.m */; };
 		00D2AD6C3E265E1717DEC1C6B15816DC /* LVDebugLua.m in Sources */ = {isa = PBXBuildFile; fileRef = 3192473E2632F2BF5ED4B484BA92CB1B /* LVDebugLua.m */; };
 		00DA3A18BDD7649BCD701B80D322C07C /* UIView+LuaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0745DCBEE9F9D974C2292B909E704360 /* UIView+LuaView.m */; };
-		02228F9A60FE67D87E28AC0DC2E28196 /* NSString+DateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 411F346AD2435AA5B647B95EB1E03F17 /* NSString+DateUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00F09DB5E05D1208F27161E2F016FE36 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37864639795C4854F0231F20AE600CAD /* MobileCoreServices.framework */; };
+		022B549F10007177A43FAB1DD5114F7D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BA91FAAE708116C42507E22D769743 /* Security.framework */; };
 		030472B91CC2C2502434F3411AFDB1DA /* lVdo.c in Sources */ = {isa = PBXBuildFile; fileRef = BD007074E637F12447C60DEA4FB5BAA5 /* lVdo.c */; };
-		0358B918CA8C9D3C214FD4D41CD69A90 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44578A5153D11FA06E45CB7CBB7E930A /* Security.framework */; };
 		035F8A6D1C97D5F06ADDCF1399051D01 /* LVZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = D4444C7F1B41E198EF54A4FBD36D3B3D /* LVZipArchive.m */; };
-		045FFEDD819A734271DD5DE53C877884 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CCCCEB9EC1F313B446B38E47A2DC6 /* CoreGraphics.framework */; };
+		083FED835486BBD9AD119830253E4441 /* RCShopHelperView.m in Sources */ = {isa = PBXBuildFile; fileRef = F074501C24FF63D2D088CD94F6B45187 /* RCShopHelperView.m */; };
 		09EEEEE396CEBA3FF63F733D72D6957C /* lVgc.c in Sources */ = {isa = PBXBuildFile; fileRef = 533E7BD0A0230B13C866B84630776D5D /* lVgc.c */; };
 		0A08FC71C4E3B8E0F8734BCDA7CCA7CB /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 74ED45470D18B4C85F89BCC367A98FC1 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A424A467344535CACAB6264F5810A14 /* LVBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = FFECAA1B48BF34400CDCE24ECE20F1B1 /* LVBlock.m */; };
 		0A708A8E45A5047674B45A2D25CD0410 /* LVSwipeGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A971E11CEBE63824D3643E44406BD5A /* LVSwipeGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0ADB8025C900DFBAB9DD1C0D075B9D15 /* LVCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 896232270DFC9E37AAA54558F903898F /* LVCollectionViewCell.m */; };
-		0B2D11852EAF389759DAFE51ED081627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7CE58C24766CA4C94C849DDCDD2292 /* Foundation.framework */; };
-		0BB4C7E228FDDDDEB83C1E73F6EC4D4F /* RCHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8099234198600BF23BCED48B1C0DEF24 /* RCHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BBDE40EE8F0BF963067F5F1F0945688 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 016D834E8A2916DF48E7A381807A60F0 /* NSString+Helper.m */; };
 		0D13DA126DA6ED750181084159B4CEBC /* lVdump.c in Sources */ = {isa = PBXBuildFile; fileRef = 538FC1C264CF16E60F0342F171D071C8 /* lVdump.c */; };
 		0D3BD9C78CCB0DABCDB130ACC283854D /* LVGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C0E79522BA30BF71A4C46DDFA83F7CC /* LVGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D8E41F85636EE95E13E6E1F0B1F3740 /* lVvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 073F6C9BDAEED738AF456F6390608329 /* lVvm.c */; };
 		0D94F767880763F38B8BE225CF082078 /* LVTransform3D.h in Headers */ = {isa = PBXBuildFile; fileRef = 59B9112FA84A1F4FE922F739BF51D112 /* LVTransform3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F2C5D205C892184763AA4A124E1BE1F /* lVtable.c in Sources */ = {isa = PBXBuildFile; fileRef = EE3DAE8F548B9D2D221584CE9184FEC0 /* lVtable.c */; };
 		109586294A3579BB3F80E26D0A0546E0 /* LVCollectionViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DF442D1EC57F67BBF81F28C4733B946E /* LVCollectionViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10BA3C60011E81264EA41DFCF02A5883 /* RCDownloadTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E2A1BA76E94F0E441FEB94EB78830E /* RCDownloadTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10E539977E499FF036A563FF25CD14E0 /* lVoslib.c in Sources */ = {isa = PBXBuildFile; fileRef = 6D17A9646CDC51A1019CFA5919D43047 /* lVoslib.c */; };
 		122104BF58BCF6B72B3C6852B23C6AD3 /* lViolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 4CD80CA86A77DA5041BDA78945CEC23F /* lViolib.c */; };
-		1405C98CE4A40AD6DED29758B3FD2B69 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7E64675A3A5A17AE84274E90360EF2 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14A27728669EB75F64B335E62A4E6BEC /* LVSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A96A2DB4500C84B7B194459B74B645 /* LVSystem.m */; };
 		14CD3DFB4A25BAEFB205730FA6750025 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF0A5A1EF7EA190F1D94FA7236FFBB3 /* AFAutoPurgingImageCache.m */; };
 		15460ABD372C937E2A07A2FCDF98C473 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E340DEA68CC8D3718C4EF0492B7C1 /* UIActivityIndicatorView+AFNetworking.m */; };
 		1613CA19CA98BFF3B75C1C68228932B2 /* LVTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 27124678030560558F3B890483EC4CE6 /* LVTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1675BA69BA68275943BFA0EA5F76B1BB /* lVobject.c in Sources */ = {isa = PBXBuildFile; fileRef = CA6279A8A4194200C054C2509938296B /* lVobject.c */; };
-		17912D9A89FC36E82029409E9B74A61A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99B49BEEEF0599D9A8A5C7E71FF1FC3 /* MobileCoreServices.framework */; };
 		17CF52CE886712BA1F3A10CDAB946F57 /* LVTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2619A905DA07647A3C3CE43FDCE279 /* LVTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		181F5A17D124D0E85D95DE5047E1CEEF /* JUFLXLayoutDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B293B404FCF97159F39220B511B3DE4 /* JUFLXLayoutDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		187D41937406CFAB78CA9270DFCB3617 /* LVRotationGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E90ED06E88F629197C750721DD897F8D /* LVRotationGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,8 +44,9 @@
 		1A23335C6E5D0B9CEF88B4AFF5FB6DF6 /* lVcode.h in Headers */ = {isa = PBXBuildFile; fileRef = 24B5CE40ED30AD75F8376FBFB2707176 /* lVcode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B12FAC364C9C41C3A11D55E9719E60C /* LVDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6307A2E1D5AC34325285DE613DECC6C1 /* LVDB.m */; };
 		1CDD8821F0A532D06E039CA90EDED3F0 /* JUFLXNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C35449BF48BAF4EB114A4398AC9313A /* JUFLXNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D9E28CEA38C25D366AFFFD3BF6DF060 /* NSString+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 054E6DC21C78C2CD4B8FE609F954DD81 /* NSString+Test.m */; };
+		1F00BB674965E31E834BEAE7502AFA8C /* RCDownloadTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E2A1BA76E94F0E441FEB94EB78830E /* RCDownloadTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FBFD3A41D252F3B904B065C5F893981 /* lVbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = 99FAC794BD0147047DDA67AB32EF4F35 /* lVbaselib.c */; };
+		2053D71CF543C3A3CC47C5409D61923C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3FA101C77BBB9691CE81BAE29586E8 /* CoreGraphics.framework */; };
 		20F652D1A11B2A7F409F8BFE99C9F5AB /* LVCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C7C0C97784282E51BFE3CC5289C0D0 /* LVCollectionView.m */; };
 		23415204AA48A02959E4E5245CF96037 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C59750C9734FAFE131C42EFEC07137 /* AFHTTPSessionManager.m */; };
 		2359387620C5E815BF0594BC40311734 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A52E183BB75AAC744D2A842E8E1F1B47 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -61,15 +56,17 @@
 		2A2A1EE181355D64E323FA9EB870B79F /* LVPinchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD8DB76C9DC12B0AEB5658C4D63FB92 /* LVPinchGestureRecognizer.m */; };
 		2A9E4FF6908E5569101EF29E9DC8E965 /* LVAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B49C26929A3EBF165CB703ECCB0731 /* LVAlert.m */; };
 		2BB51F2624D563473B1FEE034BA72DE6 /* lVdebug.c in Sources */ = {isa = PBXBuildFile; fileRef = A64F7FD25AF60BF6ABA97F5C12EB0954 /* lVdebug.c */; };
-		2D02152A0A08FB3BA1FE6C16203F3132 /* RCKeySelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46560FECD8BFC6394C857AC5EBA10A13 /* RCKeySelectView.m */; };
+		2D412E18A1DABA39D9CBEC48A48E9DCF /* NSDate+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2026CEB18699C09AF7C9A965E4B415 /* NSDate+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2EBFB86863B122BE4005400751232B80 /* LVBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 50EB7231B1F2979ED972AD1213F91420 /* LVBundle.m */; };
+		2ED096E324697522E081F93ECBD7416B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72ACAF07A14696562C146FCFC5613107 /* Pods-dummy.m */; };
+		2F1A34117F19BBE1329115ED65607BEA /* NSString+AttributeSting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4615534EC6EE69BEF95269B9930585 /* NSString+AttributeSting.m */; };
 		2FDFC30108976FABDFA383809674D193 /* LVTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C388A74B590610F1BC5B08DC37DAD /* LVTableViewDelegate.m */; };
 		2FF50A7BBA18960127F838B82130545C /* LVRSA.h in Headers */ = {isa = PBXBuildFile; fileRef = E496353D486C7622731E8FD7E918718F /* LVRSA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30DA0B928C8F28E3C3F279C3833458A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7CE58C24766CA4C94C849DDCDD2292 /* Foundation.framework */; };
 		30FA3C7A01B427B680A5E661439B6160 /* LVPointerValueBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DF59738FAF5A6411E83755849E56D5 /* LVPointerValueBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3103BF932FAA265E032D10AAB9CE0B60 /* LVLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E544766F207BCE0238696FA3ED6E99 /* LVLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		311E5200832E4AE174A193851A2C6317 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8600C098ED75384980DB5DBDDA50E62D /* AFSecurityPolicy.m */; };
 		31704E348F0C762BADFA15537FE7A7E2 /* lVtm.c in Sources */ = {isa = PBXBuildFile; fileRef = BF801C4047D841698484BA07294B9DB1 /* lVtm.c */; };
+		31BA8D895D911543ED4EAE7EBFEC95C9 /* RCDateTimePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F530E0CBC7A6B2F76BB20DFB6B224E /* RCDateTimePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		326A543AD4E39A2DAECA1CD385E3AEA2 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 339CBF5411654FA537E219CC919FB17A /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32A25FF3D6877A288447020EE2A44577 /* lV.c in Sources */ = {isa = PBXBuildFile; fileRef = A745E308B6F54DCAF9BD0B32AF49E9D0 /* lV.c */; };
 		3305184F9492BC6E63EF8AD5193A82A2 /* LVPkgManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA514D5020399F2E3B9B217619B498A /* LVPkgManager.m */; };
@@ -87,15 +84,16 @@
 		3DEC62E3E2EB3634C64CECF2744D34FA /* LVTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5A3F83D90EF0829B77C46AF7A11A4 /* LVTextField.m */; };
 		3E21F54B47413D96D70CD1650ED23228 /* lVparser.h in Headers */ = {isa = PBXBuildFile; fileRef = D77587A434455C2FB395F50BF6ADFA83 /* lVparser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40206D7FBB558525BD4D1FA597306B54 /* LVImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B4E873817BDAEB190786507EAA6EDD /* LVImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B72DDBE21739DA38B9026F98410BBD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241A2B7247375EE22111B162FCE4AE84 /* UIKit.framework */; };
 		4174AB65A5C1235885314665F43A6181 /* LVHeads.h in Headers */ = {isa = PBXBuildFile; fileRef = F0BF505721697A4C8B1E68BC45CD114A /* LVHeads.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41F3A4FEAA41ED0C36180C1E66387DD6 /* lVstring.h in Headers */ = {isa = PBXBuildFile; fileRef = 4341479E9F9D4C70AE0015E769B6498C /* lVstring.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43098B12DF5546CB576986E68DBCAFCA /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C08D2E9C8377FC9BDB0315FF6F4B882B /* AFNetworkReachabilityManager.m */; };
 		43311CFC6D1166B9FEFC5928A120C407 /* LVData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9471A08C8B4F487EEC3E3A2A80E7F272 /* LVData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44CC899D29F14E2F45E1FD1EBC2A9D6F /* LVNinePatchImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E6ABA3D07B63CBFB22AE4A12CB261BB2 /* LVNinePatchImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44F0B6997927928EA466C9D749D15149 /* lVzio.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6D2818436D3F964D4AA3817B04F78A /* lVzio.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45BBE6326126CAEE6487CBD3DBDBE17F /* UIView+LabelHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD344F21C3C39BB1ED39EC02C03D82A /* UIView+LabelHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4664D5D23F35CE9A05C783D0AF20A17D /* LVTypeConvert.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E2E9A48E461915B8215E6055D34C76 /* LVTypeConvert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4782B0306CDFF5881A1CC9D47EBFFB3A /* LVCustomPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9EF9CCB65DC9A0481A32DA65239416 /* LVCustomPanel.m */; };
+		490CA9E215A1F100761628916E4371BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D0D0663BFEACD3F126A939DB77861F /* Foundation.framework */; };
 		4949429FD007AE47412E61D52B6B6EF5 /* LVGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 122B05799A56766510DAA2743089AFCC /* LVGestureRecognizer.m */; };
 		49D2A9E55DA18F2C4A841144B88BC112 /* LVNetworkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 70001F8B9CD79BE6795CA581040DEEF6 /* LVNetworkStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B21DD923191A14CC287F50E15B18A9E /* LVCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C1065B184A0ED1515FCA9B11599D95D0 /* LVCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -105,9 +103,8 @@
 		4D70DA02C28EB8FD571A3D1F92BB2D04 /* LVAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7A03821E9BB9C034EF0995BD525C5 /* LVAnimate.m */; };
 		4F3CFA184ED3201A548B83BEECB1C2E6 /* lVdblib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1005CDD97C3D1E58ED202A9B44D4424E /* lVdblib.c */; };
 		4FE64B3E1AF8DA6D0CC75D849FC90B09 /* LVAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = CF8C67F9C3C142EF75CC093BC8BA84F4 /* LVAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5026F1F546971F8D1000755C03CF093A /* NSString+AttributeSting.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F4DA7946AE21F9A7117117D44DF8F3 /* NSString+AttributeSting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		513D08E13A89B4EC6FD0DAED2F70449B /* UIView+LuaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A1FEE6BB4C8627220CD22A05BA1B545 /* UIView+LuaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52062962743338EE20AD9EA887C4D03B /* NSString+Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CA3C377DFF6AB1AADB9670715DF6E2 /* NSString+Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		526A098E98D07F3F1F14EA27D41E02E3 /* RCExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 197CE7FD99D7686D0A25ED8C638498EE /* RCExtension-dummy.m */; };
 		533E9CF27D9295B46E58B2DD162D0339 /* LVRegisterManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 046ADE29165FCD693E2A319D39645102 /* LVRegisterManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5444DB4A385DAD2AB241F9955FF652FF /* LVCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 22BA7A0A5BE08DEC486191D39191B17F /* LVCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55C78C4CB7FA7950016D85EBFF2C557A /* LVDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCC92EF54A9D17F21E7DD0690B0898B /* LVDownloader.m */; };
@@ -115,7 +112,6 @@
 		593827D82BB037FA1DCCB0B4D673979B /* JUFLXNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3187E2E8748C8E94D25F873E33083A6D /* JUFLXNode.m */; };
 		5A66320AA7581D147DD28AE7A496B0DA /* LVExternalLinker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C08621B4A62F406A6AD3E596511E783 /* LVExternalLinker.m */; };
 		5A9203A78648F8B3D91573AC4DE4F389 /* lVprint.c in Sources */ = {isa = PBXBuildFile; fileRef = 94113BA5865FF9C81A5E7C03322D85B8 /* lVprint.c */; };
-		5AD06A3B228D6425D0DF01E3799BF0DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE339893A9300FDD81EEF4C7035E7814 /* UIKit.framework */; };
 		5B40B9095DC3BB788A7348499F2B8BD4 /* lV.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFDC2E29177BE7C5E19E6D53075FA26 /* lV.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C1629833553CC8042121D1C3F99C588 /* LVPinchGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCB65CF78990A8EF4838B4EB42063C3 /* LVPinchGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CF74976FE6D098A53B39C16F184B648 /* LView.h in Headers */ = {isa = PBXBuildFile; fileRef = F11AD200ED7DC4F74CD6DC550DB4856B /* LView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -123,64 +119,64 @@
 		5D52DB6DF2E6C24CECB0015A9177A2E1 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DF062AF7BD25458D532A4E894AE146D4 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FE0265081376C47C209FE7E8897A19E /* lVc.c in Sources */ = {isa = PBXBuildFile; fileRef = E97B2C3ACDC9FA722295713A169454C7 /* lVc.c */; };
 		60217A721AB3F4AD13D7B3F65146C670 /* lVtm.h in Headers */ = {isa = PBXBuildFile; fileRef = B73A9426EFC4420C02942D7FDAB07C0D /* lVtm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6083F51989A0009C740D92767F4DC1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D0D0663BFEACD3F126A939DB77861F /* Foundation.framework */; };
 		61BFDF3D34E30715D17DA6EFBD39E262 /* LVAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCBA2ADE4FCC886BB7B1B12E62EC0FD /* LVAudioPlayer.m */; };
-		650FFDAF60A6C37D824BC6364B09A3E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DD83B3A88233A4EFA458D74866100D /* SystemConfiguration.framework */; };
+		63D725560A7E126AAD2C3432D4B17188 /* UIView+LabelHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D701F632F3C84872B06CE5E96B4072C /* UIView+LabelHeight.m */; };
 		6619EDDC683068BEEF5E399CAECB4616 /* UIScrollView+LuaView.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D531D5F7FE9E63A9DF272B3520E4AC /* UIScrollView+LuaView.m */; };
-		66375B80005C0860B685CDF370E79164 /* NSString+AttributeSting.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F4DA7946AE21F9A7117117D44DF8F3 /* NSString+AttributeSting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6696E05BCA92F437B61ACB7D60145E86 /* lVvm.h in Headers */ = {isa = PBXBuildFile; fileRef = 68AB514C317C54CDCF9215A2561FD6A6 /* lVvm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66EAFFD533E6FE42F5A920C5AF5A6AFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7CE58C24766CA4C94C849DDCDD2292 /* Foundation.framework */; };
 		6746A2998B76D18E8843B1118ED3CEB6 /* LVUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8EA5D4CF7C32A0243E56939C1124EF /* LVUtil.m */; };
 		6774F600283CC3E0A1A9F2CC0443A0A5 /* LVTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E987C3EEBAAB1E25C1F2984E985CC23 /* LVTableView.m */; };
 		679FF32AC9B6D9F67A5F8D58564B40B6 /* JUFLXCSSParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 576B0CA3BBC1B4C836E67804167FBB48 /* JUFLXCSSParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		694503ECE6BB46DA98B66FD6520146BB /* UIView+LabelHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D701F632F3C84872B06CE5E96B4072C /* UIView+LabelHeight.m */; };
+		68AAF2E13AB9A7D8798EBFCFDFD60D80 /* RCHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8099234198600BF23BCED48B1C0DEF24 /* RCHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68CDF937294B59EC98A41C7606E753BD /* NSString+DateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 411F346AD2435AA5B647B95EB1E03F17 /* NSString+DateUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B06412DE7DC7639CB3C161B54E26341 /* LVNativeObjBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 601600E285B58576A546C1A8A5AEBC80 /* LVNativeObjBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B13B7079C71C07CA84790C873885607 /* LVMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = B95EFAD4FC6E4F374C46D6E36D6628CA /* LVMethod.m */; };
-		6B4BB7E59E0C99221E7E6E1D9D13D52E /* RCKeySelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC423DC915B29A04BF52D524C250C836 /* RCKeySelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C11EDD1A70EC4140EB694798875FDFD /* RCDownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BBDC031D44C812348291659C710696 /* RCDownloadTool.m */; };
+		6C0F42160377F8403B4740DBFCC2ACDC /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 016D834E8A2916DF48E7A381807A60F0 /* NSString+Helper.m */; };
 		6D17B4B6E9CAE224CCBBA2A50C322C96 /* LVTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8F6045EC42C2CAEFAEB50469CC22B8 /* LVTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D2C7F907543CF0B5A4AF8078A1FA35B /* LVDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B7BE0A0B809619C91CFE158D259AF6 /* LVDate.m */; };
 		6D87660AF7BF1089ADCE5338ECD89906 /* LVPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CAAAF25CE0A683B9C287220BDA577A /* LVPanGestureRecognizer.m */; };
 		6EC97BDB3FC508526F9E388095A7DDCC /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 517C56369B7FC5EA403A8461F999798A /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EC9B1EF3F7B9968FCD5508D7E0002C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D0D0663BFEACD3F126A939DB77861F /* Foundation.framework */; };
 		6FC5DE28A83E5ABA48E4CF65D949ED8B /* LVDebuger.h in Headers */ = {isa = PBXBuildFile; fileRef = A261FD75BE72ECCD8DD1ED84FED4FBAD /* LVDebuger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6FD6B4D828B7DB22DE9C521FC4AEE94A /* JUFLXLayoutKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F73F9B538A534EE8D85DCFD6D3C929 /* JUFLXLayoutKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E5052FE92ECAF160685CC887BDF962 /* NSString+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = A73DE759617969FC8070175FF0EE3B34 /* NSString+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73D0F4DE20E7B01535DC614B0A9D90DD /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7E64675A3A5A17AE84274E90360EF2 /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7444EFB733C731F8A4762791F6E2FFAC /* lVapi.h in Headers */ = {isa = PBXBuildFile; fileRef = A35B43B1F4CE17B3D930369A528548A2 /* lVapi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		767044A952B16923434A4E71BC131E8A /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9032061D75F90300F9F704EE601E8CAC /* NSDate+Utils.m */; };
-		76B765FEED6E65C7B30C1C164B72762D /* RCShopHelperView.m in Sources */ = {isa = PBXBuildFile; fileRef = F074501C24FF63D2D088CD94F6B45187 /* RCShopHelperView.m */; };
 		76F52DBF66474338CC33155A69ED37ED /* lVstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = D58A2ACAA9D8B16A89800D9370DB4904 /* lVstrlib.c */; };
 		7794797A6CE18BC707AAE28D68DF5609 /* LVLuaObjBox.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3708D1EA40417AB8A07E98377BF94E /* LVLuaObjBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78940A6980F359C4304C695EF6E67C5D /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DC65D52E5A92AECD28D78053A98D5FFC /* UIButton+AFNetworking.m */; };
 		7A4911EFC30FBFD2F7ACAA517D285B33 /* LVMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 917CEAAEBC09A8820B255EFAC923C840 /* LVMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A852ED3E1ED1249AFE9B708EB7BDB74 /* LViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C5C362DD8F383E3672CD0E4F38DBB /* LViewController.m */; };
 		7B7A973D90DB4B019E7F51F00B511F9B /* LVScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8F503FF20DD619E36CEBFBE7E9C153 /* LVScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D3C2ADB0CDE14ED9DE9FFB59AF1CF2A /* RCDateTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C443DE58DD1BFCCB99B6D0FA34DCFB /* RCDateTimePicker.m */; };
 		7F0578A0258E02384F6229C678E60D31 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D18FB70F47E8DDC79A10693B2DD70166 /* UIRefreshControl+AFNetworking.m */; };
 		8076B769E6DEE5D210F5545296E8F7C0 /* Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CBB39C923B22961D5FE9C1E2B9C420 /* Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		823B39A99A9EAAB5C1D110E003C0D320 /* RCHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 252B8A8D89085E5974FEC4D368D705EA /* RCHttpClient.m */; };
 		830050886B18F54E17F117FD8EFC717B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2436831F5DF1197A69D4BB2CD9CB9579 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83B4EF10815DAC988CE9A1DF1C927925 /* lVinit.c in Sources */ = {isa = PBXBuildFile; fileRef = 36F124681FC0778529AB78B8D6D416B5 /* lVinit.c */; };
 		85604B8A0DD0B187BAAAAFF4B2C2DCFA /* LVStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E5F4307148567A27FF4EC69921BE74 /* LVStruct.m */; };
 		85FAB6F1D2FE0598BF2E61D7BB084B8D /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 651CE2C8E0B73D3060593370D57F2489 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8601482ACDAA713DA506E819D288A86F /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9032061D75F90300F9F704EE601E8CAC /* NSDate+Utils.m */; };
+		862C64E1656576CB8F1CDE177D56D1E0 /* NSString+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 054E6DC21C78C2CD4B8FE609F954DD81 /* NSString+Test.m */; };
 		867E90453DBF663E27CC06C105DD865F /* LView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9B1ED4FA552311F546E39E73F061C3 /* LView.m */; };
 		87837A32EBB47F673579595456B26C17 /* LVAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2981A54DAD8E1E1BF4D45E63B49CF480 /* LVAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A848D40DC6717484F617DBF92E7B48D /* NSString+Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 83CA3C377DFF6AB1AADB9670715DF6E2 /* NSString+Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B5FA97EFD8F414AA429DB56CF6D8483 /* LVLoadingIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = F8709F4C5CA344B58DF4A60FBF65B9EF /* LVLoadingIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D66FB7C8A01C5704869AE4F47119BB7 /* lVzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 78B75899618CC62D0858C74ED1F5B4FA /* lVzio.c */; };
 		8E20DD7328F084E2CF567991004D33D7 /* LVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EB33C12890BEA1D62E8EFC3F6B3911EA /* LVImage.m */; };
 		8E82178CC9BD8BE3DBF2C10E33807AEB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF78911B189A544B7B66B7DB3FDFC2A /* AFURLRequestSerialization.m */; };
 		8F3113A2681B82E3E93B7A78B9CFE87D /* LVBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E484E798B7E7FA5DE9EA9817E787FA8 /* LVBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9061847102631C84D0651F1E9F5A4852 /* NSString+DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FA14223E98F8D02187BE1215A50F7D /* NSString+DateUtils.m */; };
 		9080BD55E26A4E9BF7E4E83BE8BE3851 /* LVPagerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B6A56922841FAED5B80CDF567FA039A /* LVPagerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91B0DE589DD26C77E1E78FDFD3500174 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F04AE83D362850953589A1FC3FED12B /* UIView+Frame.m */; };
 		93533BB28525E9BAA9A5CAC62ADF2301 /* lVtablib.c in Sources */ = {isa = PBXBuildFile; fileRef = 068B4514E45FA832AE3ABD29618D506F /* lVtablib.c */; };
 		94639FA84F25FDBF3C473DACF0FEDCB1 /* lVoadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 5480DAD4A217D3DD3422294C6F8262A6 /* lVoadlib.c */; };
 		94F5DFE7FD54B663E3BA5A8410D1DD5C /* LVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 816B6AFCA29DA3B07D88D04C10C56459 /* LVTableViewCell.m */; };
 		955061CED5FFADFBA7288F14259471D2 /* LVNativeObjBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 5229C8C91C0F38AA393F8F2464CF4A17 /* LVNativeObjBox.m */; };
 		95E8688DC99810E252632AEA3DC4A7E9 /* LVDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D9A7F0AC8C626A49A45959A0DE7EBA /* LVDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		960D306432B872718D326A05DD6FF8BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3FA101C77BBB9691CE81BAE29586E8 /* CoreGraphics.framework */; };
 		986ABC13F27D74817529977564AC96BD /* lVfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = 0481564B58ACD58F596C00197B592F12 /* lVfunc.c */; };
 		9CA2F752928C3AB2761FF778242344E9 /* lVfunc.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A178FE5F5E11338044F738A2B0EDB3 /* lVfunc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DB2480F31ABF3A6B6D2B62DD00F3F66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6CCCCEB9EC1F313B446B38E47A2DC6 /* CoreGraphics.framework */; };
 		9DDAD198E32A63DA9504694E6276E68F /* LVLuaObjBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A97FCEE037E2CFD6B97F0D45905E28AA /* LVLuaObjBox.m */; };
 		9EC8371112AD4DF2039E7290A720B76E /* LVScrollViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5515575C1A32C10056C7C17F3870D9 /* LVScrollViewDelegate.m */; };
 		9F1D778CD07543B3BD9ACB8EC9F3E6B0 /* LVLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1440D8607093DBCBBBADFFFCFFF735 /* LVLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0E11A47A3A000DEDC387794EB37CB15 /* NSString+AttributeSting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4615534EC6EE69BEF95269B9930585 /* NSString+AttributeSting.m */; };
 		A0E84C54DE5B1BAA535C2FED8D6A1E17 /* LVHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 76100A2189CFEE641DD313A386BD3394 /* LVHttp.m */; };
 		A1875E4DD5D34E83A87D3D88E5ECAF08 /* LVToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4A3AEE1B0964B34BA8650D0A0621DE /* LVToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A241C7B67EBA8472F180349C0FB20564 /* LVLoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BEAD6FE9047180E0B715AD4EBC6515 /* LVLoadingIndicator.m */; };
@@ -189,33 +185,38 @@
 		A57FBA63D8F2495528CC6DE1BDF81622 /* LVStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3EDDA79F817DFC431DFEE02209A071 /* LVStruct.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A85AABDB9A1B361C866BAD3131564A04 /* LVDebugConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0300C1BA841B908DA6D78070AF6A93EB /* LVDebugConnection.m */; };
 		A8FC6A53F6C1CB4DEFD972664E1AF3B1 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1025666354EB16E414203D2425AED7A3 /* AFNetworking-dummy.m */; };
+		A927A8BC470D238D1854A026B8D7596A /* NSString+DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FA14223E98F8D02187BE1215A50F7D /* NSString+DateUtils.m */; };
 		A9FB636303FCFBC001470648E904B498 /* lVopcodes.h in Headers */ = {isa = PBXBuildFile; fileRef = B67F5DA569BEE3EE2381FCD9A95A117B /* lVopcodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC64354D150C9FC293CE5C9609BED42C /* UIGestureRecognizer+LuaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21571DD39743B055AB2137F44FFF1E64 /* UIGestureRecognizer+LuaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC8F479023E1A4B30F239E14E5624A74 /* lVapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 192A05AD95FF13B5F39306BC1A73C477 /* lVapi.c */; };
 		ACE9C1A6E8D5121C6C5F907C7A9CFCC9 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F278E24749C38CE093A8EBE5B88E04 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD359A96DD4AA2C962E50A5CD5524F54 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 502AD5177B358B6C9754AFB4D7512DCD /* UIWebView+AFNetworking.m */; };
+		ADA52A01B2667B506F88E884B957224E /* RCDateTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C443DE58DD1BFCCB99B6D0FA34DCFB /* RCDateTimePicker.m */; };
 		ADFA4ECF9479679ACB0B147F296A9C72 /* LVCustomPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1435007BC4A31B5849A60FCD233693EE /* LVCustomPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B00869E59912960EE876F6CBC8B18B74 /* lVopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 373C95C760674CD2436B6FE82F823566 /* lVopcodes.c */; };
+		B07A23DDD3A59E3D174A04F84C55573A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D0D0663BFEACD3F126A939DB77861F /* Foundation.framework */; };
 		B0BE398350F83A7B0102C3BBAFC51428 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6D82E1A6DB0BC1F99B5EC7918EF01 /* UIImageView+AFNetworking.m */; };
 		B10C08D0DB4D6427AFE85FB04D77B3EE /* lVgc.h in Headers */ = {isa = PBXBuildFile; fileRef = B533AAB017E888535F0EF78226F3B927 /* lVgc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1615918272E7EF2EFE5E63F23D50BE8 /* RCDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA87E84FD9BB498B37D21228BEC49E4 /* RCDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1A1D9AED687C5187276E483C20165A9 /* lVlex.h in Headers */ = {isa = PBXBuildFile; fileRef = 032A6CDD2B42AD56696CCAD977238232 /* lVlex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1AFC784B1FCEEF08D128E6151D21984 /* RCHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 252B8A8D89085E5974FEC4D368D705EA /* RCHttpClient.m */; };
 		B3513932B777E11562EE799E65935607 /* LVLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FE555FCA18DCA9D13B0AAAA76B9EE8 /* LVLongPressGestureRecognizer.m */; };
 		B3650974A37CDBFBEA0BEE400B1A6ACB /* lVcode.c in Sources */ = {isa = PBXBuildFile; fileRef = E684CC0EB2E8C838121974BA103471F5 /* lVcode.c */; };
 		B51AA1F7701DCDBCC9B88A15320F9C2C /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 52264783AED88DE6E74DF3CC173C21FF /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B559DD31146FDE61733333462332105D /* LVTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5222EADC5D8CE3CD95463F247A4C622E /* LVTimer.m */; };
 		B5CF67F7870BAB70A76E57479B706B42 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D9D68E7C77EDE1577F4646C9767AA4 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B70B5A0118A3E6EC8E2A150501DC1FD6 /* LVLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A72ECA345C29D7D16439BB7D1886EC7 /* LVLabel.m */; };
+		B7364E330B6CCF4B959385EB2FCFB3A9 /* RCDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565BFDE4159BE67AEA2591C54F95484 /* RCDatePickerView.m */; };
 		B73AA8F81603C2591AF5DEE445422514 /* lVlimits.h in Headers */ = {isa = PBXBuildFile; fileRef = 822C9916E2F6B1F846F66AAAFCB059BD /* lVlimits.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7B5FA56A33686981436E2501F6F167A /* lVobject.h in Headers */ = {isa = PBXBuildFile; fileRef = B50A69EA5AAC31B7610F3D035BF2CCA2 /* lVobject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8452F1B7EFCFB6F384908BF81E72E0E /* RCDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA87E84FD9BB498B37D21228BEC49E4 /* RCDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAC8F329A48288F2BB80880DC055103B /* lVstring.c in Sources */ = {isa = PBXBuildFile; fileRef = 4DD378A1C2FCF27F3CBCD610AD4CD3CA /* lVstring.c */; };
 		BB1FB3B673A9C06BB0C69E57DA36F68A /* LVZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 36AC6649EFE4EFBB3E1E941A22A702DB /* LVZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC6FE3EC8C39E4560EA70B15534F6048 /* UIScrollView+LuaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98BAA2A83289694DAC566B324B0AE4D8 /* UIScrollView+LuaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD676EBF5E7EF1CEF37318E1F22F5E31 /* LVFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F37500596D3A17476EEAE45FF8A3A5C /* LVFile.m */; };
+		BE8A078B538A3DE577DCA44B918673F9 /* RCKeySelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46560FECD8BFC6394C857AC5EBA10A13 /* RCKeySelectView.m */; };
 		C045EBD7BC782D12EE099AEA956A57E2 /* LVAnimate.h in Headers */ = {isa = PBXBuildFile; fileRef = F149DF7D420195561A9E72D2AF2053FF /* LVAnimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1B65C3D849FEE4FB5298A8135A765DA /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A4CFD06E139862D2C1965BAE24F724 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2201E34603B014192F0967473518496 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 523E877EFF3BA6F3342C7BB99FE70651 /* AFURLResponseSerialization.m */; };
+		C226A5EEDCF5F2EDEC58F03D272EFC41 /* RCDownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BBDC031D44C812348291659C710696 /* RCDownloadTool.m */; };
 		C356BE1907B14B12032B46D6D6B89E09 /* LVDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = AF499EA4E52CC1F0A528D52E2D871533 /* LVDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C57E9C1E98E4386124B50CA68F514B6C /* LuaViewSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EB45430075E44732C1BAD3B11807EA /* LuaViewSDK-dummy.m */; };
 		C5FF9F70A35516F4069A508D206FFE00 /* UIView+JUFLXNode.h in Headers */ = {isa = PBXBuildFile; fileRef = F7150DD4D78CBA0A3BEBAC3506D33F2D /* UIView+JUFLXNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -225,10 +226,9 @@
 		CB22AB0F60571DAB031547C7A712727F /* LVExternalLinker.h in Headers */ = {isa = PBXBuildFile; fileRef = 896610E793CD5239AB7B51F7AB3D2B56 /* LVExternalLinker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF1622D6A1F422656E8C78C3AEBFB2F /* lVundump.c in Sources */ = {isa = PBXBuildFile; fileRef = 311C88B37B000296F0EC83037F325A84 /* lVundump.c */; };
 		CCBA81A65FA23E313CB347BBBFBBAA8D /* lVstate.c in Sources */ = {isa = PBXBuildFile; fileRef = 608292E94EC70E08E42E13A6DCE2AFC6 /* lVstate.c */; };
-		CCF6EB81A166B4833816BD0C73118076 /* RCMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D7C59AA4523597D39FF125571651EE /* RCMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE3D8C40B0A82EE0B4408EFA75181873 /* LVTableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7417AD0A2EFC38689D92D334E3F10292 /* LVTableViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE4BC1FEC76BF999E71E1542FE49D29E /* JUFLXCSSParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EB3D32095DFFCC3BC481BC0C6574F5 /* JUFLXCSSParser.m */; };
-		CF5F642EB5AC8A90C2DD6A56F34DE328 /* RCDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C565BFDE4159BE67AEA2591C54F95484 /* RCDatePickerView.m */; };
+		CE8965366A3B07A6C0615055A31B8B83 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8908189965D177AD6BAB607AE614C1E /* SystemConfiguration.framework */; };
 		D033E259A9E1788A595BBE0436285C0B /* lVconf.h in Headers */ = {isa = PBXBuildFile; fileRef = E2CFDA18AD6B7F76124EA1064BA9FD67 /* lVconf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D06316123EABD3B0C00EFEA05593577B /* UIGestureRecognizer+LuaView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9470305A46C0CE6C5DBF86D896E6249 /* UIGestureRecognizer+LuaView.m */; };
 		D0D5B51E0284C76E482785DAADB182B4 /* LVPagerViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BFD287B2FFD1D5F228C6ECA76888BAF /* LVPagerViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -237,16 +237,18 @@
 		D32351144BEA4FE430DECA67F20F65E8 /* UIView+JUFLXNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B100ADBEBC00A7F66631B7C3242ACB /* UIView+JUFLXNode.m */; };
 		D3B800E5EBAD40DBDA4ED6AD0A946AB2 /* lVdo.h in Headers */ = {isa = PBXBuildFile; fileRef = F0ABEE26DF92B7FF94A05F0667EB65E1 /* lVdo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3C56E62994F7DAECDED26AB3E36AE89 /* LVHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = B89F27BEBC951B4C04B858398CACBBDD /* LVHttp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4320B56A78C1A8BFA5DC4518C8E3935 /* NSDate+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2026CEB18699C09AF7C9A965E4B415 /* NSDate+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D436C627980AA544660530B933AC3B73 /* LVRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E90B626FA2EBCBDE7A58194039988AC /* LVRSA.m */; };
 		D43C6CB1E78D88C7BD0D4AAAC23F015A /* lVauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 109178E0160F5031CB3E2BFD77EABB74 /* lVauxlib.c */; };
 		D4570A98E5E6E59D6016C480DCFBC3E0 /* LVHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AEFB308A793CF87417E73C0B0983D1 /* LVHttpResponse.m */; };
 		D4EE8769E90A1C5B06E18B12EE46756F /* LVNetworkStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = A78079A4634224958C4EC54BF750CD74 /* LVNetworkStatus.m */; };
 		D5F136DFDB9B5657AC51F3202A133271 /* LVPagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C732E8AF4C418148D9A2FD891271B63F /* LVPagerViewCell.m */; };
+		D6907F5E9E4780DA4B0822FE4E21CBC5 /* UIView+LabelHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = DBD344F21C3C39BB1ED39EC02C03D82A /* UIView+LabelHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7B1D42971AEBCEC128692A47BE545F6 /* RCKeySelectView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC423DC915B29A04BF52D524C250C836 /* RCKeySelectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7B7C2A658001FFBF4AD79022482F7B8 /* LVPkgManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0175B7B668958742C606A0901F70BB66 /* LVPkgManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7E55E6AADBD31822B74EA88977E8053 /* Pods-RCLuaDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A35A62CB2654A5641A32937CB670C6C0 /* Pods-RCLuaDemo-dummy.m */; };
+		D7E55E6AADBD31822B74EA88977E8053 /* Pods-RCLuaDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E42B3B9EB8C064E7E68C644BD7F147EC /* Pods-RCLuaDemo-dummy.m */; };
 		D8F4FC1484CD4B409B6C6544F1D781E3 /* LVData.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC2DFDF2A7B24DCD396136B9FC6ED24 /* LVData.m */; };
 		D911ED533225F1D9AAA9E8032EBAF352 /* LVButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DB82CA8F95C8824450CBB531A19473A7 /* LVButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D930E9D8CB3E5956BC0388295CE7D046 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F04AE83D362850953589A1FC3FED12B /* UIView+Frame.m */; };
 		D9494311A38EE3A72CCB46970044CD29 /* LVTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C140E36E160D87176F306BDBE3CCDCB /* LVTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB85B4AF65E6CC774B87D6C167C7BB60 /* lVstate.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1211A9DEAE05608105F54D30C95574 /* lVstate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC4AA67AF1138F63D2021AD9C8E81C26 /* LVNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC445866EE0671D5B7E3FE76C53305F0 /* LVNavigation.m */; };
@@ -254,38 +256,52 @@
 		DF5147A92964D9B8441999BCABD7AA02 /* LVRegisterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 019F508FBCF97FECD79706D10790BB41 /* LVRegisterManager.m */; };
 		DFDAC8245626953C4BCE5A2DA6BE2A5B /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BB292923248B3BA355661BB548D15E /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E026F8DA0EC1105A16DD8859ACF53B86 /* LVPointerValueBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7067A2A387E3E24FD289F36F59BD605E /* LVPointerValueBox.m */; };
-		E1B5BD3E7B46956C4BA93FA2ED5ABF08 /* RCDateTimePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 76F530E0CBC7A6B2F76BB20DFB6B224E /* RCDateTimePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E212C2AA95E8F6EFB69A5F1455F291F8 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3404DB1D2CF2E5AEB17DF92390E4E1 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E35BF2F1AF80A08BC1A6FAD1A1103DA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D0D0663BFEACD3F126A939DB77861F /* Foundation.framework */; };
 		E3ACE55762602C5452EFD317D942C414 /* LVStyledString.m in Sources */ = {isa = PBXBuildFile; fileRef = 511C636CA5359AF4BB0F0D5FB3D867B6 /* LVStyledString.m */; };
 		E464D077AA46ED97CB322EB9D2E21056 /* LVPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE4D3311D76CF00D801FE57E9348365 /* LVPagerView.m */; };
 		E4A67850C26BC5E66DC085427C0100B4 /* LVCollectionViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2FB3750416A93538D8B39E4C360AAE /* LVCollectionViewDelegate.m */; };
 		E4F3F1AB7998F3859990E384E593A496 /* LVHttpResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A2E81D66337883A202A7C0D86D5AB7D /* LVHttpResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5B3E8D5F57E707048E122AECB277EF1 /* RCExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 197CE7FD99D7686D0A25ED8C638498EE /* RCExtension-dummy.m */; };
 		E727A34E5D7904248CBA5FD2CD7EC9D4 /* LVRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F294D90534170C9707F135D8E7A6C182 /* LVRotationGestureRecognizer.m */; };
 		E9A24A39FB529D6B8BBD7D40DA030E2F /* LViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DA5CDCD9A388B85C2172348633CC1E /* LViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA2D79274F36FE242750F53917DE526A /* lVauxlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 80424B5080D0B4FEF39AD1BB5E391C1E /* lVauxlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBE3E4BF9B183A966DA43DB3D1673A99 /* NSString+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = A73DE759617969FC8070175FF0EE3B34 /* NSString+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC5728C639EA7322FFE94BDCF47633CE /* lVundump.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E0E7E479688FD960F1B01195835721B /* lVundump.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECA0E1BD6BB2F373D60CB2FE820115D6 /* LVPagerIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = D47023AB417E0F2933CA4C9F31ADB667 /* LVPagerIndicator.m */; };
-		ECD0E4CDD082DCE93EAC62F96B2385A7 /* RCShopHelperView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DBA8C4F4F96EFBA084DD0DDECF6BA66 /* RCShopHelperView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECED7F22C08359AC279788E636773EF9 /* LVScrollViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD3197A7B14E9CB697C22122702BBA3 /* LVScrollViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED69D9B5A342FE9BD3F170D5CDDEC948 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B7EECB66485D0FDCD4D94F92CC7617 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDCFB26471E67242DCD4AB1FFFE05AF0 /* LVFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DC69C88551ADE35BC2AC4F984B0B108 /* LVFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFAC4C0EDA20183C784185F08BAFAFA5 /* LVDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5949BA8DCB47CCE35FA70E045EFE57D8 /* LVDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFD3EF093ABE3E6A35C5EC4BF3528852 /* LVNinePatchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE729037F173C5173D64DAB951FD6C51 /* LVNinePatchImage.m */; };
 		F3774B1449FCE5B3CA3E1B336E11D284 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EAD0AB611F710ADD3B977D0F98069FA /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4A9232EAAD337F360D364C39D0FD74C /* RCShopHelperView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DBA8C4F4F96EFBA084DD0DDECF6BA66 /* RCShopHelperView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5A7BC4D0B8D144EEA3BFE7395F00E5F /* LVSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C25C47E8D578BD495515F24DC4C75B8 /* LVSystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6956A388113F8F91CD00E3CA2B4C0B8 /* LVNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = AADE1732E5F43D9E92FB02AAE167D9FC /* LVNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6B7D57B27A345E283E3BD5C7BBC263C /* LVAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F34007C222DCAAAD3CF0B84E394613D /* LVAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9B16BC9F441FE96E49B8910117A5B18 /* LVSwipeGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C20390E442B22E5747B840F7FF3DB0 /* LVSwipeGestureRecognizer.m */; };
+		FA9578FD3F725698DC3646CC76CCDA63 /* RCMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D7C59AA4523597D39FF125571651EE /* RCMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCDDD3BC67EA205C87238A2A87D5C36C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BEF548EEED5CE6CE3D8CA9987F9783 /* AFURLSessionManager.m */; };
-		FCE422D318409DF7E8997EAEE5BAE5E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7CE58C24766CA4C94C849DDCDD2292 /* Foundation.framework */; };
 		FDE85B22155B32F1E0CAC0C39B25CC53 /* LVPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = D2641BF85B4FDA5095ADB339BA1A0C5A /* LVPanGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEC685050F61DCF9BAD3DAF768C8372F /* JUFLXLinearLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7797B68870DE306F13A22F037AE5C75E /* JUFLXLinearLayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEF1CC64893C59AAA243D799CDC46ED3 /* LVBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B540A0DC8CE614E0D1F3BA8221B0972 /* LVBaseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1EECDE84FA8B9C5C2A4AC5AFB6C674E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928353533005A4198EBDA5B700D37B64;
+			remoteInfo = AFNetworking;
+		};
 		2FF2022047A07A4AF28EEE7A8BD4078F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928353533005A4198EBDA5B700D37B64;
+			remoteInfo = AFNetworking;
+		};
+		47DF869D3B36DEAB0B260D915D8DB811 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -296,7 +312,14 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 40DCED3742A63DADBA4C37BBD30D3851;
+			remoteGlobalIDString = 17487E11FDB739BF10F466E68B64C8F4;
+			remoteInfo = RCExtension;
+		};
+		B9313ECAB17D17C9A4768756707E67C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17487E11FDB739BF10F466E68B64C8F4;
 			remoteInfo = RCExtension;
 		};
 		E54D3F01628E0B37B10E53BBFFB46948 /* PBXContainerItemProxy */ = {
@@ -305,13 +328,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 40CA4699773965D43ECCCC32F86C9D67;
 			remoteInfo = LuaViewSDK;
-		};
-		FE74658145CD94295E85BA0C0E65D2EF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 928353533005A4198EBDA5B700D37B64;
-			remoteInfo = AFNetworking;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -346,17 +362,19 @@
 		14E544766F207BCE0238696FA3ED6E99 /* LVLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVLabel.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVLabel.h; sourceTree = "<group>"; };
 		16BEF548EEED5CE6CE3D8CA9987F9783 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		192A05AD95FF13B5F39306BC1A73C477 /* lVapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVapi.c; path = IOS/LuaViewSDK/Classes/lv514/lVapi.c; sourceTree = "<group>"; };
-		195209CF13BD9C6048F8568794202BDB /* Pods-RCLuaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCLuaDemo.release.xcconfig"; sourceTree = "<group>"; };
 		197CE7FD99D7686D0A25ED8C638498EE /* RCExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCExtension-dummy.m"; sourceTree = "<group>"; };
 		19EB45430075E44732C1BAD3B11807EA /* LuaViewSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LuaViewSDK-dummy.m"; sourceTree = "<group>"; };
 		1A1FEE6BB4C8627220CD22A05BA1B545 /* UIView+LuaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LuaView.h"; path = "IOS/LuaViewSDK/Classes/lvsdk/UIView+LuaView.h"; sourceTree = "<group>"; };
 		1A72ECA345C29D7D16439BB7D1886EC7 /* LVLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVLabel.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVLabel.m; sourceTree = "<group>"; };
+		1B30F5A110E50E962653E8A4C65DF0DA /* Pods-RCLuaDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCLuaDemo-frameworks.sh"; sourceTree = "<group>"; };
 		1BC7A03821E9BB9C034EF0995BD525C5 /* LVAnimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVAnimate.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVAnimate.m; sourceTree = "<group>"; };
 		1C35449BF48BAF4EB114A4398AC9313A /* JUFLXNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JUFLXNode.h; path = IOS/LuaViewSDK/Classes/layout/JUFLXNode.h; sourceTree = "<group>"; };
 		1D9B1ED4FA552311F546E39E73F061C3 /* LView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LView.m; path = IOS/LuaViewSDK/Classes/LView.m; sourceTree = "<group>"; };
+		1DDE6021FCC108ECF3CEB62F7D280572 /* libRCExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0E7E479688FD960F1B01195835721B /* lVundump.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVundump.h; path = IOS/LuaViewSDK/Classes/lv514/lVundump.h; sourceTree = "<group>"; };
 		21571DD39743B055AB2137F44FFF1E64 /* UIGestureRecognizer+LuaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+LuaView.h"; path = "IOS/LuaViewSDK/Classes/lvsdk/UIGestureRecognizer+LuaView.h"; sourceTree = "<group>"; };
 		22BA7A0A5BE08DEC486191D39191B17F /* LVCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVCollectionView.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVCollectionView.h; sourceTree = "<group>"; };
+		241A2B7247375EE22111B162FCE4AE84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2436831F5DF1197A69D4BB2CD9CB9579 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		24B5CE40ED30AD75F8376FBFB2707176 /* lVcode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVcode.h; path = IOS/LuaViewSDK/Classes/lv514/lVcode.h; sourceTree = "<group>"; };
 		252B8A8D89085E5974FEC4D368D705EA /* RCHttpClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCHttpClient.m; path = RCExtension/RCExtension/RCHttpClient.m; sourceTree = "<group>"; };
@@ -364,7 +382,7 @@
 		27124678030560558F3B890483EC4CE6 /* LVTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTableViewCell.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVTableViewCell.h; sourceTree = "<group>"; };
 		28D9A7F0AC8C626A49A45959A0DE7EBA /* LVDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVDB.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVDB.h; sourceTree = "<group>"; };
 		2981A54DAD8E1E1BF4D45E63B49CF480 /* LVAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVAnimator.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVAnimator.h; sourceTree = "<group>"; };
-		2A3B5DCF48496586C5BBB93A881B47CA /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3FA101C77BBB9691CE81BAE29586E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		2D36D8F44D753D2F543E2C7E0C4B3E19 /* LuaViewSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LuaViewSDK.xcconfig; sourceTree = "<group>"; };
 		2D4615534EC6EE69BEF95269B9930585 /* NSString+AttributeSting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+AttributeSting.m"; path = "RCExtension/RCExtension/NSString+AttributeSting.m"; sourceTree = "<group>"; };
 		2D701F632F3C84872B06CE5E96B4072C /* UIView+LabelHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LabelHeight.m"; path = "RCExtension/RCExtension/UIView+LabelHeight.m"; sourceTree = "<group>"; };
@@ -380,23 +398,22 @@
 		36F124681FC0778529AB78B8D6D416B5 /* lVinit.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVinit.c; path = IOS/LuaViewSDK/Classes/lv514/lVinit.c; sourceTree = "<group>"; };
 		373C95C760674CD2436B6FE82F823566 /* lVopcodes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVopcodes.c; path = IOS/LuaViewSDK/Classes/lv514/lVopcodes.c; sourceTree = "<group>"; };
 		374E83DA968407A506DEE87F18FFED8F /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		37864639795C4854F0231F20AE600CAD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		37B7BE0A0B809619C91CFE158D259AF6 /* LVDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVDate.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVDate.m; sourceTree = "<group>"; };
-		38BF50D4B10CE7444450AF15C8E2C7C5 /* Pods-RCLuaDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCLuaDemo-frameworks.sh"; sourceTree = "<group>"; };
 		38D8185889F7D7E3E56F5DFAA9AA82A4 /* LVTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVTapGestureRecognizer.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVTapGestureRecognizer.m; sourceTree = "<group>"; };
-		3A7CE58C24766CA4C94C849DDCDD2292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3BFD287B2FFD1D5F228C6ECA76888BAF /* LVPagerViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVPagerViewCell.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVPagerViewCell.h; sourceTree = "<group>"; };
 		3C140E36E160D87176F306BDBE3CCDCB /* LVTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTimer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVTimer.h; sourceTree = "<group>"; };
 		3C25C47E8D578BD495515F24DC4C75B8 /* LVSystem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVSystem.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVSystem.h; sourceTree = "<group>"; };
 		3E484E798B7E7FA5DE9EA9817E787FA8 /* LVBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVBlock.h; path = IOS/LuaViewSDK/Classes/LVBlock.h; sourceTree = "<group>"; };
-		3F210D8716B333708C821CD75C0971AE /* libRCExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F6CCCCEB9EC1F313B446B38E47A2DC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		411F346AD2435AA5B647B95EB1E03F17 /* NSString+DateUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DateUtils.h"; path = "RCExtension/RCExtension/NSString+DateUtils.h"; sourceTree = "<group>"; };
+		41490F9FD81166173B9DCBE65C7AA010 /* Pods-RCLuaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCLuaDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		41E2A1BA76E94F0E441FEB94EB78830E /* RCDownloadTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCDownloadTool.h; path = RCExtension/RCExtension/RCDownloadTool.h; sourceTree = "<group>"; };
+		42F724CCA8437184DF46F9D7711E0E09 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4341479E9F9D4C70AE0015E769B6498C /* lVstring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVstring.h; path = IOS/LuaViewSDK/Classes/lv514/lVstring.h; sourceTree = "<group>"; };
-		44578A5153D11FA06E45CB7CBB7E930A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		458826F5CD9ADC5F2BFAAAF374A44449 /* LVBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVBaseView.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVBaseView.h; sourceTree = "<group>"; };
 		45BEAD6FE9047180E0B715AD4EBC6515 /* LVLoadingIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVLoadingIndicator.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVLoadingIndicator.m; sourceTree = "<group>"; };
 		46560FECD8BFC6394C857AC5EBA10A13 /* RCKeySelectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCKeySelectView.m; path = RCExtension/RCExtension/RCKeySelectView.m; sourceTree = "<group>"; };
+		47681A630EE501B2540D94411F56FCAA /* Pods-RCLuaDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCLuaDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4771D3A1B916D04356DCD15DE14C0797 /* LVDebugConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVDebugConnection.h; path = IOS/LuaViewSDK/Classes/lvdebug/LVDebugConnection.h; sourceTree = "<group>"; };
 		48A4CFD06E139862D2C1965BAE24F724 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		49FC3CB480267BC76D81377C885503A4 /* LVDebuger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVDebuger.m; path = IOS/LuaViewSDK/Classes/lvdebug/LVDebuger.m; sourceTree = "<group>"; };
@@ -427,6 +444,7 @@
 		54F278E24749C38CE093A8EBE5B88E04 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		56AEFB308A793CF87417E73C0B0983D1 /* LVHttpResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVHttpResponse.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVHttpResponse.m; sourceTree = "<group>"; };
 		576B0CA3BBC1B4C836E67804167FBB48 /* JUFLXCSSParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JUFLXCSSParser.h; path = IOS/LuaViewSDK/Classes/layout/JUFLXCSSParser.h; sourceTree = "<group>"; };
+		5897E64BC1F3BF72E0F05855A380F8C9 /* libLuaViewSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLuaViewSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5949BA8DCB47CCE35FA70E045EFE57D8 /* LVDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVDate.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVDate.h; sourceTree = "<group>"; };
 		59B9112FA84A1F4FE922F739BF51D112 /* LVTransform3D.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTransform3D.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVTransform3D.h; sourceTree = "<group>"; };
 		5E3404DB1D2CF2E5AEB17DF92390E4E1 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
@@ -444,11 +462,12 @@
 		70001F8B9CD79BE6795CA581040DEEF6 /* LVNetworkStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVNetworkStatus.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVNetworkStatus.h; sourceTree = "<group>"; };
 		7067A2A387E3E24FD289F36F59BD605E /* LVPointerValueBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVPointerValueBox.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVPointerValueBox.m; sourceTree = "<group>"; };
 		70E11BE32412B75A8EC49BF19230BC11 /* lVtable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVtable.h; path = IOS/LuaViewSDK/Classes/lv514/lVtable.h; sourceTree = "<group>"; };
+		72ACAF07A14696562C146FCFC5613107 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		739A391B75DDC53B016215287F6D3800 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
 		7417AD0A2EFC38689D92D334E3F10292 /* LVTableViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVTableViewDelegate.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVTableViewDelegate.h; sourceTree = "<group>"; };
 		74B4E873817BDAEB190786507EAA6EDD /* LVImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVImage.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVImage.h; sourceTree = "<group>"; };
 		74ED45470D18B4C85F89BCC367A98FC1 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		74FA14223E98F8D02187BE1215A50F7D /* NSString+DateUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DateUtils.m"; path = "RCExtension/RCExtension/NSString+DateUtils.m"; sourceTree = "<group>"; };
-		75DFFF045472E4271B06D852B0A13D41 /* libPods-RCLuaDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCLuaDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76100A2189CFEE641DD313A386BD3394 /* LVHttp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVHttp.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVHttp.m; sourceTree = "<group>"; };
 		76B18AEE3E32FE6FD32F3BACF46D8E18 /* lVdebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVdebug.h; path = IOS/LuaViewSDK/Classes/lv514/lVdebug.h; sourceTree = "<group>"; };
 		76F530E0CBC7A6B2F76BB20DFB6B224E /* RCDateTimePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCDateTimePicker.h; path = RCExtension/RCExtension/RCDateTimePicker.h; sourceTree = "<group>"; };
@@ -474,15 +493,16 @@
 		8C08621B4A62F406A6AD3E596511E783 /* LVExternalLinker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVExternalLinker.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVExternalLinker.m; sourceTree = "<group>"; };
 		8C0E79522BA30BF71A4C46DDFA83F7CC /* LVGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVGestureRecognizer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVGestureRecognizer.h; sourceTree = "<group>"; };
 		8C263FF86C2EEB811613DD79C24FEE1D /* LVBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVBundle.h; path = IOS/LuaViewSDK/Classes/LVBundle.h; sourceTree = "<group>"; };
+		8C538C147B07EEA47739FE1133BC7F9B /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		8D3B841BA6608C68BD97D266CE723F59 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		8DC69C88551ADE35BC2AC4F984B0B108 /* LVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVFile.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVFile.h; sourceTree = "<group>"; };
 		8F34007C222DCAAAD3CF0B84E394613D /* LVAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVAudioPlayer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVAudioPlayer.h; sourceTree = "<group>"; };
 		9032061D75F90300F9F704EE601E8CAC /* NSDate+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Utils.m"; path = "RCExtension/RCExtension/NSDate+Utils.m"; sourceTree = "<group>"; };
 		90C59750C9734FAFE131C42EFEC07137 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		917CEAAEBC09A8820B255EFAC923C840 /* LVMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVMethod.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVMethod.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94113BA5865FF9C81A5E7C03322D85B8 /* lVprint.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVprint.c; path = IOS/LuaViewSDK/Classes/lv514/lVprint.c; sourceTree = "<group>"; };
 		9471A08C8B4F487EEC3E3A2A80E7F272 /* LVData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVData.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVData.h; sourceTree = "<group>"; };
+		94A82E65778B0CD376302D7B16C7894C /* libPods-RCLuaDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCLuaDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96C443DE58DD1BFCCB99B6D0FA34DCFB /* RCDateTimePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCDateTimePicker.m; path = RCExtension/RCExtension/RCDateTimePicker.m; sourceTree = "<group>"; };
 		98BAA2A83289694DAC566B324B0AE4D8 /* UIScrollView+LuaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+LuaView.h"; path = "IOS/LuaViewSDK/Classes/lvsdk/UIScrollView+LuaView.h"; sourceTree = "<group>"; };
 		99C7C0C97784282E51BFE3CC5289C0D0 /* LVCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVCollectionView.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVCollectionView.m; sourceTree = "<group>"; };
@@ -498,9 +518,9 @@
 		9EF0A5A1EF7EA190F1D94FA7236FFBB3 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		A0FE555FCA18DCA9D13B0AAAA76B9EE8 /* LVLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVLongPressGestureRecognizer.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVLongPressGestureRecognizer.m; sourceTree = "<group>"; };
 		A261FD75BE72ECCD8DD1ED84FED4FBAD /* LVDebuger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVDebuger.h; path = IOS/LuaViewSDK/Classes/lvdebug/LVDebuger.h; sourceTree = "<group>"; };
-		A35A62CB2654A5641A32937CB670C6C0 /* Pods-RCLuaDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCLuaDemo-dummy.m"; sourceTree = "<group>"; };
 		A35B43B1F4CE17B3D930369A528548A2 /* lVapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVapi.h; path = IOS/LuaViewSDK/Classes/lv514/lVapi.h; sourceTree = "<group>"; };
 		A52E183BB75AAC744D2A842E8E1F1B47 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A5ED5E610E2C63BACD55EAFC4C6C73BF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
 		A64F7FD25AF60BF6ABA97F5C12EB0954 /* lVdebug.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVdebug.c; path = IOS/LuaViewSDK/Classes/lv514/lVdebug.c; sourceTree = "<group>"; };
 		A73DE759617969FC8070175FF0EE3B34 /* NSString+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Helper.h"; path = "RCExtension/RCExtension/NSString+Helper.h"; sourceTree = "<group>"; };
 		A745E308B6F54DCAF9BD0B32AF49E9D0 /* lV.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lV.c; path = IOS/LuaViewSDK/Classes/lv514/lV.c; sourceTree = "<group>"; };
@@ -512,36 +532,39 @@
 		AADE1732E5F43D9E92FB02AAE167D9FC /* LVNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVNavigation.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVNavigation.h; sourceTree = "<group>"; };
 		AC1211A9DEAE05608105F54D30C95574 /* lVstate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVstate.h; path = IOS/LuaViewSDK/Classes/lv514/lVstate.h; sourceTree = "<group>"; };
 		ACCC92EF54A9D17F21E7DD0690B0898B /* LVDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVDownloader.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVDownloader.m; sourceTree = "<group>"; };
-		AE2C810F3FCDC5E00965F6693970D1C2 /* Pods-RCLuaDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCLuaDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		AEE9892693F7133EEAC0328ABD2640EF /* Pods-RCLuaDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCLuaDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		AF499EA4E52CC1F0A528D52E2D871533 /* LVDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVDownloader.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVDownloader.h; sourceTree = "<group>"; };
 		B1B100ADBEBC00A7F66631B7C3242ACB /* UIView+JUFLXNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JUFLXNode.m"; path = "IOS/LuaViewSDK/Classes/layout/UIView+JUFLXNode.m"; sourceTree = "<group>"; };
 		B21F842B9EAA338AE1104C31F8A5D1E8 /* JUFLXTargeNamespace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JUFLXTargeNamespace.h; path = IOS/LuaViewSDK/Classes/layout/JUFLXTargeNamespace.h; sourceTree = "<group>"; };
+		B4BE73BC4FBB2ACBC4DB9C8E7BBC220F /* Pods-RCLuaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCLuaDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B50A69EA5AAC31B7610F3D035BF2CCA2 /* lVobject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVobject.h; path = IOS/LuaViewSDK/Classes/lv514/lVobject.h; sourceTree = "<group>"; };
 		B533AAB017E888535F0EF78226F3B927 /* lVgc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVgc.h; path = IOS/LuaViewSDK/Classes/lv514/lVgc.h; sourceTree = "<group>"; };
 		B67F5DA569BEE3EE2381FCD9A95A117B /* lVopcodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVopcodes.h; path = IOS/LuaViewSDK/Classes/lv514/lVopcodes.h; sourceTree = "<group>"; };
 		B6D9D68E7C77EDE1577F4646C9767AA4 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		B6DD83B3A88233A4EFA458D74866100D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		B73A9426EFC4420C02942D7FDAB07C0D /* lVtm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVtm.h; path = IOS/LuaViewSDK/Classes/lv514/lVtm.h; sourceTree = "<group>"; };
 		B7D7C59AA4523597D39FF125571651EE /* RCMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCMacro.h; path = RCExtension/RCExtension/RCMacro.h; sourceTree = "<group>"; };
 		B89F27BEBC951B4C04B858398CACBBDD /* LVHttp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVHttp.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVHttp.h; sourceTree = "<group>"; };
 		B95EFAD4FC6E4F374C46D6E36D6628CA /* LVMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVMethod.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVMethod.m; sourceTree = "<group>"; };
-		B99B49BEEEF0599D9A8A5C7E71FF1FC3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		B9A9E2CFF06471C041722BE916CCE466 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA149F9995491CB81A91F850BE86DBB1 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		BA404B1A1959E037603C43CB39BDA752 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC445866EE0671D5B7E3FE76C53305F0 /* LVNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVNavigation.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVNavigation.m; sourceTree = "<group>"; };
+		BCB87D49E03B676E4CBC9FFB4ABE4819 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
 		BD007074E637F12447C60DEA4FB5BAA5 /* lVdo.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVdo.c; path = IOS/LuaViewSDK/Classes/lv514/lVdo.c; sourceTree = "<group>"; };
-		BE339893A9300FDD81EEF4C7035E7814 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BE7E64675A3A5A17AE84274E90360EF2 /* UIView+Frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "RCExtension/RCExtension/UIView+Frame.h"; sourceTree = "<group>"; };
 		BF2FB3750416A93538D8B39E4C360AAE /* LVCollectionViewDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVCollectionViewDelegate.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVCollectionViewDelegate.m; sourceTree = "<group>"; };
 		BF801C4047D841698484BA07294B9DB1 /* lVtm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVtm.c; path = IOS/LuaViewSDK/Classes/lv514/lVtm.c; sourceTree = "<group>"; };
-		C04634A7980B1D42341D62846E3CF251 /* Pods-RCLuaDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCLuaDemo-resources.sh"; sourceTree = "<group>"; };
 		C08D2E9C8377FC9BDB0315FF6F4B882B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		C0B7EECB66485D0FDCD4D94F92CC7617 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		C1065B184A0ED1515FCA9B11599D95D0 /* LVCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVCollectionViewCell.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVCollectionViewCell.h; sourceTree = "<group>"; };
+		C2BBA5492BAAC300FFE834C007A06B77 /* Pods-RCLuaDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCLuaDemo-resources.sh"; sourceTree = "<group>"; };
 		C3297EB6FEA6F430D09DCF46B709C153 /* lVmem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVmem.h; path = IOS/LuaViewSDK/Classes/lv514/lVmem.h; sourceTree = "<group>"; };
 		C565BFDE4159BE67AEA2591C54F95484 /* RCDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCDatePickerView.m; path = RCExtension/RCExtension/RCDatePickerView.m; sourceTree = "<group>"; };
 		C6BBDC031D44C812348291659C710696 /* RCDownloadTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCDownloadTool.m; path = RCExtension/RCExtension/RCDownloadTool.m; sourceTree = "<group>"; };
 		C732E8AF4C418148D9A2FD891271B63F /* LVPagerViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVPagerViewCell.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVPagerViewCell.m; sourceTree = "<group>"; };
+		C8908189965D177AD6BAB607AE614C1E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		C8D0D0663BFEACD3F126A939DB77861F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C91E113A5402C7A517C7CE858EE72420 /* JUFLXLinearLayoutView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JUFLXLinearLayoutView.m; path = IOS/LuaViewSDK/Classes/layout/LayoutExtensions/JUFLXLinearLayoutView.m; sourceTree = "<group>"; };
 		CA6279A8A4194200C054C2509938296B /* lVobject.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVobject.c; path = IOS/LuaViewSDK/Classes/lv514/lVobject.c; sourceTree = "<group>"; };
 		CB3708D1EA40417AB8A07E98377BF94E /* LVLuaObjBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVLuaObjBox.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVLuaObjBox.h; sourceTree = "<group>"; };
@@ -551,18 +574,19 @@
 		CF8C67F9C3C142EF75CC093BC8BA84F4 /* LVAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVAlert.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVAlert.h; sourceTree = "<group>"; };
 		CF90933A1E3BEE1E5A282D5B4C00ECC5 /* LuaViewSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LuaViewSDK-prefix.pch"; sourceTree = "<group>"; };
 		CF9EF9CCB65DC9A0481A32DA65239416 /* LVCustomPanel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVCustomPanel.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVCustomPanel.m; sourceTree = "<group>"; };
+		D13C19028CDC839883695EA9D9010298 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		D18FB70F47E8DDC79A10693B2DD70166 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		D2641BF85B4FDA5095ADB339BA1A0C5A /* LVPanGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVPanGestureRecognizer.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVPanGestureRecognizer.h; sourceTree = "<group>"; };
-		D2C7B025FF3BB7F8CCE7B690A3E817C5 /* Pods-RCLuaDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCLuaDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D3BA91FAAE708116C42507E22D769743 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		D4444C7F1B41E198EF54A4FBD36D3B3D /* LVZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVZipArchive.m; path = IOS/LuaViewSDK/Classes/PKG/LVZipArchive.m; sourceTree = "<group>"; };
 		D47023AB417E0F2933CA4C9F31ADB667 /* LVPagerIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVPagerIndicator.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVPagerIndicator.m; sourceTree = "<group>"; };
 		D4F4DA7946AE21F9A7117117D44DF8F3 /* NSString+AttributeSting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+AttributeSting.h"; path = "RCExtension/RCExtension/NSString+AttributeSting.h"; sourceTree = "<group>"; };
 		D58A2ACAA9D8B16A89800D9370DB4904 /* lVstrlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVstrlib.c; path = IOS/LuaViewSDK/Classes/lv514/lVstrlib.c; sourceTree = "<group>"; };
 		D5C20390E442B22E5747B840F7FF3DB0 /* LVSwipeGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LVSwipeGestureRecognizer.m; path = IOS/LuaViewSDK/Classes/lvsdk/LVSwipeGestureRecognizer.m; sourceTree = "<group>"; };
 		D77587A434455C2FB395F50BF6ADFA83 /* lVparser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVparser.h; path = IOS/LuaViewSDK/Classes/lv514/lVparser.h; sourceTree = "<group>"; };
+		D86B34071561ADC5DD00ADDAF5C448D6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9470305A46C0CE6C5DBF86D896E6249 /* UIGestureRecognizer+LuaView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+LuaView.m"; path = "IOS/LuaViewSDK/Classes/lvsdk/UIGestureRecognizer+LuaView.m"; sourceTree = "<group>"; };
 		DAD3197A7B14E9CB697C22122702BBA3 /* LVScrollViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVScrollViewDelegate.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVScrollViewDelegate.h; sourceTree = "<group>"; };
-		DB15F9894FFDFA7A09A1995265C77873 /* Pods-RCLuaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCLuaDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DB82CA8F95C8824450CBB531A19473A7 /* LVButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVButton.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVButton.h; sourceTree = "<group>"; };
 		DBD344F21C3C39BB1ED39EC02C03D82A /* UIView+LabelHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LabelHeight.h"; path = "RCExtension/RCExtension/UIView+LabelHeight.h"; sourceTree = "<group>"; };
 		DC423DC915B29A04BF52D524C250C836 /* RCKeySelectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RCKeySelectView.h; path = RCExtension/RCExtension/RCKeySelectView.h; sourceTree = "<group>"; };
@@ -570,6 +594,7 @@
 		DF062AF7BD25458D532A4E894AE146D4 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		DF442D1EC57F67BBF81F28C4733B946E /* LVCollectionViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVCollectionViewDelegate.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVCollectionViewDelegate.h; sourceTree = "<group>"; };
 		E2CFDA18AD6B7F76124EA1064BA9FD67 /* lVconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVconf.h; path = IOS/LuaViewSDK/Classes/lv514/lVconf.h; sourceTree = "<group>"; };
+		E42B3B9EB8C064E7E68C644BD7F147EC /* Pods-RCLuaDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCLuaDemo-dummy.m"; sourceTree = "<group>"; };
 		E496353D486C7622731E8FD7E918718F /* LVRSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVRSA.h; path = IOS/LuaViewSDK/Classes/RSA/LVRSA.h; sourceTree = "<group>"; };
 		E5947490F820C1BCEFAA27082666A411 /* lVmem.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVmem.c; path = IOS/LuaViewSDK/Classes/lv514/lVmem.c; sourceTree = "<group>"; };
 		E684CC0EB2E8C838121974BA103471F5 /* lVcode.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVcode.c; path = IOS/LuaViewSDK/Classes/lv514/lVcode.c; sourceTree = "<group>"; };
@@ -587,7 +612,6 @@
 		EEF304E5BF8CBCE7A9DB748AA77CEF6A /* lVmathlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = lVmathlib.c; path = IOS/LuaViewSDK/Classes/lv514/lVmathlib.c; sourceTree = "<group>"; };
 		F074501C24FF63D2D088CD94F6B45187 /* RCShopHelperView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RCShopHelperView.m; path = RCExtension/RCExtension/RCShopHelperView.m; sourceTree = "<group>"; };
 		F0ABEE26DF92B7FF94A05F0667EB65E1 /* lVdo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lVdo.h; path = IOS/LuaViewSDK/Classes/lv514/lVdo.h; sourceTree = "<group>"; };
-		F0B3BD710008A00001F58D97EEF3979B /* libLuaViewSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLuaViewSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BF505721697A4C8B1E68BC45CD114A /* LVHeads.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LVHeads.h; path = IOS/LuaViewSDK/Classes/lvsdk/LVHeads.h; sourceTree = "<group>"; };
 		F0EB3D32095DFFCC3BC481BC0C6574F5 /* JUFLXCSSParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JUFLXCSSParser.m; path = IOS/LuaViewSDK/Classes/layout/JUFLXCSSParser.m; sourceTree = "<group>"; };
 		F11AD200ED7DC4F74CD6DC550DB4856B /* LView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LView.h; path = IOS/LuaViewSDK/Classes/LView.h; sourceTree = "<group>"; };
@@ -611,11 +635,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045FFEDD819A734271DD5DE53C877884 /* CoreGraphics.framework in Frameworks */,
-				30DA0B928C8F28E3C3F279C3833458A0 /* Foundation.framework in Frameworks */,
-				17912D9A89FC36E82029409E9B74A61A /* MobileCoreServices.framework in Frameworks */,
-				0358B918CA8C9D3C214FD4D41CD69A90 /* Security.framework in Frameworks */,
-				650FFDAF60A6C37D824BC6364B09A3E5 /* SystemConfiguration.framework in Frameworks */,
+				2053D71CF543C3A3CC47C5409D61923C /* CoreGraphics.framework in Frameworks */,
+				6083F51989A0009C740D92767F4DC1FC /* Foundation.framework in Frameworks */,
+				00F09DB5E05D1208F27161E2F016FE36 /* MobileCoreServices.framework in Frameworks */,
+				022B549F10007177A43FAB1DD5114F7D /* Security.framework in Frameworks */,
+				CE8965366A3B07A6C0615055A31B8B83 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,9 +647,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DB2480F31ABF3A6B6D2B62DD00F3F66 /* CoreGraphics.framework in Frameworks */,
-				0B2D11852EAF389759DAFE51ED081627 /* Foundation.framework in Frameworks */,
-				5AD06A3B228D6425D0DF01E3799BF0DB /* UIKit.framework in Frameworks */,
+				960D306432B872718D326A05DD6FF8BA /* CoreGraphics.framework in Frameworks */,
+				B07A23DDD3A59E3D174A04F84C55573A /* Foundation.framework in Frameworks */,
+				40B72DDBE21739DA38B9026F98410BBD /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,15 +657,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66EAFFD533E6FE42F5A920C5AF5A6AFB /* Foundation.framework in Frameworks */,
+				490CA9E215A1F100761628916E4371BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9D73766E55E6F49618CE05DEF4CFC0C /* Frameworks */ = {
+		7308ABB88E3E425D370EA44D26722649 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCE422D318409DF7E8997EAEE5BAE5E9 /* Foundation.framework in Frameworks */,
+				E35BF2F1AF80A08BC1A6FAD1A1103DA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66E6BA72F5C59B558EF781C5C31ADD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC9B1EF3F7B9968FCD5508D7E0002C4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,9 +694,22 @@
 		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				36ECE1649CAA0D1B653209D2E3DF8978 /* iOS */,
+				1F866C4FD622AAEA41E36EEF0EE4C9DF /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F866C4FD622AAEA41E36EEF0EE4C9DF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2C3FA101C77BBB9691CE81BAE29586E8 /* CoreGraphics.framework */,
+				C8D0D0663BFEACD3F126A939DB77861F /* Foundation.framework */,
+				37864639795C4854F0231F20AE600CAD /* MobileCoreServices.framework */,
+				D3BA91FAAE708116C42507E22D769743 /* Security.framework */,
+				C8908189965D177AD6BAB607AE614C1E /* SystemConfiguration.framework */,
+				241A2B7247375EE22111B162FCE4AE84 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		2B38F8C380BB4F72789B8949AA864FF4 /* Serialization */ = {
@@ -678,19 +723,13 @@
 			name = Serialization;
 			sourceTree = "<group>";
 		};
-		2DB04DBD2EAC5E16FBDE7DB087575BE0 /* Pods-RCLuaDemo */ = {
+		2D114835C114FEB6EDF5060B66FE0764 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D2C7B025FF3BB7F8CCE7B690A3E817C5 /* Pods-RCLuaDemo-acknowledgements.markdown */,
-				AE2C810F3FCDC5E00965F6693970D1C2 /* Pods-RCLuaDemo-acknowledgements.plist */,
-				A35A62CB2654A5641A32937CB670C6C0 /* Pods-RCLuaDemo-dummy.m */,
-				38BF50D4B10CE7444450AF15C8E2C7C5 /* Pods-RCLuaDemo-frameworks.sh */,
-				C04634A7980B1D42341D62846E3CF251 /* Pods-RCLuaDemo-resources.sh */,
-				DB15F9894FFDFA7A09A1995265C77873 /* Pods-RCLuaDemo.debug.xcconfig */,
-				195209CF13BD9C6048F8568794202BDB /* Pods-RCLuaDemo.release.xcconfig */,
+				B5F4D0FBEFA99CE51363E761EDA653CE /* Pods */,
+				C675EB4437040B603BFCBE7608A9584F /* Pods-RCLuaDemo */,
 			);
-			name = "Pods-RCLuaDemo";
-			path = "Target Support Files/Pods-RCLuaDemo";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		3367C53BE5B005CD59DFFBF0C64F506A /* RCExtension */ = {
@@ -726,19 +765,6 @@
 				A0784664533A4E78FF0CFEA1EEFA9369 /* Support Files */,
 			);
 			path = RCExtension;
-			sourceTree = "<group>";
-		};
-		36ECE1649CAA0D1B653209D2E3DF8978 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3F6CCCCEB9EC1F313B446B38E47A2DC6 /* CoreGraphics.framework */,
-				3A7CE58C24766CA4C94C849DDCDD2292 /* Foundation.framework */,
-				B99B49BEEEF0599D9A8A5C7E71FF1FC3 /* MobileCoreServices.framework */,
-				44578A5153D11FA06E45CB7CBB7E930A /* Security.framework */,
-				B6DD83B3A88233A4EFA458D74866100D /* SystemConfiguration.framework */,
-				BE339893A9300FDD81EEF4C7035E7814 /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		488F66C2A3A772EC01D1DFFFD001F0A8 /* Support Files */ = {
@@ -803,11 +829,11 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
 				6B39135CAFC9C788A16A2AFA63489A19 /* Pods */,
-				DB07140020F945D186356C9883D30D24 /* Products */,
-				F1D55377A35A0DB16BA7119C45AC6CF9 /* Targets Support Files */,
+				9A78472F31556A01F132FAB084D1D7D7 /* Products */,
+				2D114835C114FEB6EDF5060B66FE0764 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -818,6 +844,18 @@
 				8600C098ED75384980DB5DBDDA50E62D /* AFSecurityPolicy.m */,
 			);
 			name = Security;
+			sourceTree = "<group>";
+		};
+		9A78472F31556A01F132FAB084D1D7D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9A9E2CFF06471C041722BE916CCE466 /* libAFNetworking.a */,
+				5897E64BC1F3BF72E0F05855A380F8C9 /* libLuaViewSDK.a */,
+				D86B34071561ADC5DD00ADDAF5C448D6 /* libPods.a */,
+				94A82E65778B0CD376302D7B16C7894C /* libPods-RCLuaDemo.a */,
+				1DDE6021FCC108ECF3CEB62F7D280572 /* libRCExtension.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A0784664533A4E78FF0CFEA1EEFA9369 /* Support Files */ = {
@@ -1040,6 +1078,36 @@
 			path = LuaViewSDK;
 			sourceTree = "<group>";
 		};
+		B5F4D0FBEFA99CE51363E761EDA653CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42F724CCA8437184DF46F9D7711E0E09 /* Pods-acknowledgements.markdown */,
+				739A391B75DDC53B016215287F6D3800 /* Pods-acknowledgements.plist */,
+				72ACAF07A14696562C146FCFC5613107 /* Pods-dummy.m */,
+				8C538C147B07EEA47739FE1133BC7F9B /* Pods-frameworks.sh */,
+				D13C19028CDC839883695EA9D9010298 /* Pods-resources.sh */,
+				A5ED5E610E2C63BACD55EAFC4C6C73BF /* Pods.debug.xcconfig */,
+				BCB87D49E03B676E4CBC9FFB4ABE4819 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		C675EB4437040B603BFCBE7608A9584F /* Pods-RCLuaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				47681A630EE501B2540D94411F56FCAA /* Pods-RCLuaDemo-acknowledgements.markdown */,
+				AEE9892693F7133EEAC0328ABD2640EF /* Pods-RCLuaDemo-acknowledgements.plist */,
+				E42B3B9EB8C064E7E68C644BD7F147EC /* Pods-RCLuaDemo-dummy.m */,
+				1B30F5A110E50E962653E8A4C65DF0DA /* Pods-RCLuaDemo-frameworks.sh */,
+				C2BBA5492BAAC300FFE834C007A06B77 /* Pods-RCLuaDemo-resources.sh */,
+				41490F9FD81166173B9DCBE65C7AA010 /* Pods-RCLuaDemo.debug.xcconfig */,
+				B4BE73BC4FBB2ACBC4DB9C8E7BBC220F /* Pods-RCLuaDemo.release.xcconfig */,
+			);
+			name = "Pods-RCLuaDemo";
+			path = "Target Support Files/Pods-RCLuaDemo";
+			sourceTree = "<group>";
+		};
 		CFDC612D300FF797BB29F60CA58FEBA0 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -1054,25 +1122,6 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		DB07140020F945D186356C9883D30D24 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2A3B5DCF48496586C5BBB93A881B47CA /* libAFNetworking.a */,
-				F0B3BD710008A00001F58D97EEF3979B /* libLuaViewSDK.a */,
-				75DFFF045472E4271B06D852B0A13D41 /* libPods-RCLuaDemo.a */,
-				3F210D8716B333708C821CD75C0971AE /* libRCExtension.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F1D55377A35A0DB16BA7119C45AC6CF9 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2DB04DBD2EAC5E16FBDE7DB087575BE0 /* Pods-RCLuaDemo */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		F2A71F22F61C81281DB7B78941C18903 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -1085,24 +1134,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B02AA4FE4611E5B492ABE0A99396FE98 /* Headers */ = {
+		A0F15C67D7FCD719EE8290609ED4D008 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4320B56A78C1A8BFA5DC4518C8E3935 /* NSDate+Utils.h in Headers */,
-				66375B80005C0860B685CDF370E79164 /* NSString+AttributeSting.h in Headers */,
-				02228F9A60FE67D87E28AC0DC2E28196 /* NSString+DateUtils.h in Headers */,
-				EBE3E4BF9B183A966DA43DB3D1673A99 /* NSString+Helper.h in Headers */,
-				52062962743338EE20AD9EA887C4D03B /* NSString+Test.h in Headers */,
-				B1615918272E7EF2EFE5E63F23D50BE8 /* RCDatePickerView.h in Headers */,
-				E1B5BD3E7B46956C4BA93FA2ED5ABF08 /* RCDateTimePicker.h in Headers */,
-				10BA3C60011E81264EA41DFCF02A5883 /* RCDownloadTool.h in Headers */,
-				0BB4C7E228FDDDDEB83C1E73F6EC4D4F /* RCHttpClient.h in Headers */,
-				6B4BB7E59E0C99221E7E6E1D9D13D52E /* RCKeySelectView.h in Headers */,
-				CCF6EB81A166B4833816BD0C73118076 /* RCMacro.h in Headers */,
-				ECD0E4CDD082DCE93EAC62F96B2385A7 /* RCShopHelperView.h in Headers */,
-				1405C98CE4A40AD6DED29758B3FD2B69 /* UIView+Frame.h in Headers */,
-				45BBE6326126CAEE6487CBD3DBDBE17F /* UIView+LabelHeight.h in Headers */,
+				2D412E18A1DABA39D9CBEC48A48E9DCF /* NSDate+Utils.h in Headers */,
+				5026F1F546971F8D1000755C03CF093A /* NSString+AttributeSting.h in Headers */,
+				68CDF937294B59EC98A41C7606E753BD /* NSString+DateUtils.h in Headers */,
+				72E5052FE92ECAF160685CC887BDF962 /* NSString+Helper.h in Headers */,
+				8A848D40DC6717484F617DBF92E7B48D /* NSString+Test.h in Headers */,
+				B8452F1B7EFCFB6F384908BF81E72E0E /* RCDatePickerView.h in Headers */,
+				31BA8D895D911543ED4EAE7EBFEC95C9 /* RCDateTimePicker.h in Headers */,
+				1F00BB674965E31E834BEAE7502AFA8C /* RCDownloadTool.h in Headers */,
+				68AAF2E13AB9A7D8798EBFCFDFD60D80 /* RCHttpClient.h in Headers */,
+				D7B1D42971AEBCEC128692A47BE545F6 /* RCKeySelectView.h in Headers */,
+				FA9578FD3F725698DC3646CC76CCDA63 /* RCMacro.h in Headers */,
+				F4A9232EAAD337F360D364C39D0FD74C /* RCShopHelperView.h in Headers */,
+				73D0F4DE20E7B01535DC614B0A9D90DD /* UIView+Frame.h in Headers */,
+				D6907F5E9E4780DA4B0822FE4E21CBC5 /* UIView+LabelHeight.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1238,6 +1287,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		17487E11FDB739BF10F466E68B64C8F4 /* RCExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58852B49FA6B0944110A238FED400D15 /* Build configuration list for PBXNativeTarget "RCExtension" */;
+			buildPhases = (
+				0FFB25D4A107F1C3983E2FCA1CA8D5A4 /* Sources */,
+				D66E6BA72F5C59B558EF781C5C31ADD8 /* Frameworks */,
+				A0F15C67D7FCD719EE8290609ED4D008 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D786EAA8A27DAFC5616569196971B58 /* PBXTargetDependency */,
+			);
+			name = RCExtension;
+			productName = RCExtension;
+			productReference = 1DDE6021FCC108ECF3CEB62F7D280572 /* libRCExtension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		40CA4699773965D43ECCCC32F86C9D67 /* LuaViewSDK */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5835EA94BB6AEEB843F06EE73E473B0 /* Build configuration list for PBXNativeTarget "LuaViewSDK" */;
@@ -1252,25 +1319,7 @@
 			);
 			name = LuaViewSDK;
 			productName = LuaViewSDK;
-			productReference = F0B3BD710008A00001F58D97EEF3979B /* libLuaViewSDK.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		40DCED3742A63DADBA4C37BBD30D3851 /* RCExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F406E46E6EDBD169989E73E410ACFC31 /* Build configuration list for PBXNativeTarget "RCExtension" */;
-			buildPhases = (
-				3D5988C1EB9E848EEDEFFC3DF72524E3 /* Sources */,
-				A9D73766E55E6F49618CE05DEF4CFC0C /* Frameworks */,
-				B02AA4FE4611E5B492ABE0A99396FE98 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EE8D6A1F6EF04ACD35A2426EEF924797 /* PBXTargetDependency */,
-			);
-			name = RCExtension;
-			productName = RCExtension;
-			productReference = 3F210D8716B333708C821CD75C0971AE /* libRCExtension.a */;
+			productReference = 5897E64BC1F3BF72E0F05855A380F8C9 /* libLuaViewSDK.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		491BD947058B930B8DB1F43EA84C6DC3 /* Pods-RCLuaDemo */ = {
@@ -1289,7 +1338,7 @@
 			);
 			name = "Pods-RCLuaDemo";
 			productName = "Pods-RCLuaDemo";
-			productReference = 75DFFF045472E4271B06D852B0A13D41 /* libPods-RCLuaDemo.a */;
+			productReference = 94A82E65778B0CD376302D7B16C7894C /* libPods-RCLuaDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		928353533005A4198EBDA5B700D37B64 /* AFNetworking */ = {
@@ -1306,7 +1355,25 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 2A3B5DCF48496586C5BBB93A881B47CA /* libAFNetworking.a */;
+			productReference = B9A9E2CFF06471C041722BE916CCE466 /* libAFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D7B77CB5F9622AE366AE3B0CDA7D3152 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22D9D9F038BD1725DB31F83F4AF939F /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				CCED2DC0C57308898BA114DE96E52D10 /* Sources */,
+				7308ABB88E3E425D370EA44D26722649 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635821B5B315BECB36948282B060DA90 /* PBXTargetDependency */,
+				43C7CA142046210F2C9A36F44B72256E /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = D86B34071561ADC5DD00ADDAF5C448D6 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -1315,7 +1382,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -1326,37 +1393,38 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = DB07140020F945D186356C9883D30D24 /* Products */;
+			productRefGroup = 9A78472F31556A01F132FAB084D1D7D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				928353533005A4198EBDA5B700D37B64 /* AFNetworking */,
 				40CA4699773965D43ECCCC32F86C9D67 /* LuaViewSDK */,
+				D7B77CB5F9622AE366AE3B0CDA7D3152 /* Pods */,
 				491BD947058B930B8DB1F43EA84C6DC3 /* Pods-RCLuaDemo */,
-				40DCED3742A63DADBA4C37BBD30D3851 /* RCExtension */,
+				17487E11FDB739BF10F466E68B64C8F4 /* RCExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3D5988C1EB9E848EEDEFFC3DF72524E3 /* Sources */ = {
+		0FFB25D4A107F1C3983E2FCA1CA8D5A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				767044A952B16923434A4E71BC131E8A /* NSDate+Utils.m in Sources */,
-				A0E11A47A3A000DEDC387794EB37CB15 /* NSString+AttributeSting.m in Sources */,
-				9061847102631C84D0651F1E9F5A4852 /* NSString+DateUtils.m in Sources */,
-				0BBDE40EE8F0BF963067F5F1F0945688 /* NSString+Helper.m in Sources */,
-				1D9E28CEA38C25D366AFFFD3BF6DF060 /* NSString+Test.m in Sources */,
-				CF5F642EB5AC8A90C2DD6A56F34DE328 /* RCDatePickerView.m in Sources */,
-				7D3C2ADB0CDE14ED9DE9FFB59AF1CF2A /* RCDateTimePicker.m in Sources */,
-				6C11EDD1A70EC4140EB694798875FDFD /* RCDownloadTool.m in Sources */,
-				526A098E98D07F3F1F14EA27D41E02E3 /* RCExtension-dummy.m in Sources */,
-				B1AFC784B1FCEEF08D128E6151D21984 /* RCHttpClient.m in Sources */,
-				2D02152A0A08FB3BA1FE6C16203F3132 /* RCKeySelectView.m in Sources */,
-				76B765FEED6E65C7B30C1C164B72762D /* RCShopHelperView.m in Sources */,
-				91B0DE589DD26C77E1E78FDFD3500174 /* UIView+Frame.m in Sources */,
-				694503ECE6BB46DA98B66FD6520146BB /* UIView+LabelHeight.m in Sources */,
+				8601482ACDAA713DA506E819D288A86F /* NSDate+Utils.m in Sources */,
+				2F1A34117F19BBE1329115ED65607BEA /* NSString+AttributeSting.m in Sources */,
+				A927A8BC470D238D1854A026B8D7596A /* NSString+DateUtils.m in Sources */,
+				6C0F42160377F8403B4740DBFCC2ACDC /* NSString+Helper.m in Sources */,
+				862C64E1656576CB8F1CDE177D56D1E0 /* NSString+Test.m in Sources */,
+				B7364E330B6CCF4B959385EB2FCFB3A9 /* RCDatePickerView.m in Sources */,
+				ADA52A01B2667B506F88E884B957224E /* RCDateTimePicker.m in Sources */,
+				C226A5EEDCF5F2EDEC58F03D272EFC41 /* RCDownloadTool.m in Sources */,
+				E5B3E8D5F57E707048E122AECB277EF1 /* RCExtension-dummy.m in Sources */,
+				823B39A99A9EAAB5C1D110E003C0D320 /* RCHttpClient.m in Sources */,
+				BE8A078B538A3DE577DCA44B918673F9 /* RCKeySelectView.m in Sources */,
+				083FED835486BBD9AD119830253E4441 /* RCShopHelperView.m in Sources */,
+				D930E9D8CB3E5956BC0388295CE7D046 /* UIView+Frame.m in Sources */,
+				63D725560A7E126AAD2C3432D4B17188 /* UIView+LabelHeight.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1480,6 +1548,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CCED2DC0C57308898BA114DE96E52D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED096E324697522E081F93ECBD7416B /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE0BAD758C6F291CE7E10DA077987C62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1509,7 +1585,7 @@
 		1B90F0269674AA588C5106EBDDE7F05A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RCExtension;
-			target = 40DCED3742A63DADBA4C37BBD30D3851 /* RCExtension */;
+			target = 17487E11FDB739BF10F466E68B64C8F4 /* RCExtension */;
 			targetProxy = 6D81CBEFB1BF1C24FDCA34D4C5B0E3A8 /* PBXContainerItemProxy */;
 		};
 		4395AA4AE72C65FA27F2492184E66FD8 /* PBXTargetDependency */ = {
@@ -1518,11 +1594,23 @@
 			target = 928353533005A4198EBDA5B700D37B64 /* AFNetworking */;
 			targetProxy = 2FF2022047A07A4AF28EEE7A8BD4078F /* PBXContainerItemProxy */;
 		};
-		EE8D6A1F6EF04ACD35A2426EEF924797 /* PBXTargetDependency */ = {
+		43C7CA142046210F2C9A36F44B72256E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RCExtension;
+			target = 17487E11FDB739BF10F466E68B64C8F4 /* RCExtension */;
+			targetProxy = B9313ECAB17D17C9A4768756707E67C7 /* PBXContainerItemProxy */;
+		};
+		5D786EAA8A27DAFC5616569196971B58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 928353533005A4198EBDA5B700D37B64 /* AFNetworking */;
-			targetProxy = FE74658145CD94295E85BA0C0E65D2EF /* PBXContainerItemProxy */;
+			targetProxy = 47DF869D3B36DEAB0B260D915D8DB811 /* PBXContainerItemProxy */;
+		};
+		635821B5B315BECB36948282B060DA90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 928353533005A4198EBDA5B700D37B64 /* AFNetworking */;
+			targetProxy = 1EECDE84FA8B9C5C2A4AC5AFB6C674E1 /* PBXContainerItemProxy */;
 		};
 		F8F6C29F899621A0E81BB1B2BA32A0EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1533,38 +1621,135 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07DB6C7B33A5925B7655FFE627068B90 /* Debug */ = {
+		052A17875CB827423D627183396CEB60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB15F9894FFDFA7A09A1995265C77873 /* Pods-RCLuaDemo.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		079A31A6C6EB57174D1C83E5B235C780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1306BA2552A0046CDE802B4E09DA8808 /* RCExtension.xcconfig */;
+			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RCExtension/RCExtension-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		17224E02F0E8CE2AC8EF6DDD7B535094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1FB72190532A2A9C5C4118A8A88F90 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		24ED7D73D47E7C13DEFF6242F0643CD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5ED5E610E2C63BACD55EAFC4C6C73BF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		09DCE34E04BF914A6A2B929276DA6FB2 /* Release */ = {
+		3F495657D9748C6C9B07B66CE0A85F18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4BE73BC4FBB2ACBC4DB9C8E7BBC220F /* Pods-RCLuaDemo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		41DB875760C488122BF5B26D3C314E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB87D49E03B676E4CBC9FFB4ABE4819 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		56E12E7994FB7C6CA044C1B5ABC605A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D36D8F44D753D2F543E2C7E0C4B3E19 /* LuaViewSDK.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LuaViewSDK/LuaViewSDK-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -1573,34 +1758,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		3C51C0C1DF1AF101E0EF749B8E660489 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A1FB72190532A2A9C5C4118A8A88F90 /* AFNetworking.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1615,12 +1778,10 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -1638,57 +1799,12 @@
 			};
 			name = Debug;
 		};
-		6FA0093E2A5B4FF4AADB2192622D9600 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 195209CF13BD9C6048F8568794202BDB /* Pods-RCLuaDemo.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		A91F36D3BAC6E6C3C6C774F34FA1146F /* Debug */ = {
+		B4DDE12839C683A70B75338FDE5EC7A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D36D8F44D753D2F543E2C7E0C4B3E19 /* LuaViewSDK.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/LuaViewSDK/LuaViewSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		CB91B20423EBDEB01757488B6B9AC0D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1306BA2552A0046CDE802B4E09DA8808 /* RCExtension.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RCExtension/RCExtension-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -1701,17 +1817,14 @@
 			};
 			name = Release;
 		};
-		D9C97EB576CE94D4E00FD675005D2868 /* Debug */ = {
+		CF42542529F689B52406696B5784E1F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A1FB72190532A2A9C5C4118A8A88F90 /* AFNetworking.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -1720,16 +1833,30 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
+			name = Release;
+		};
+		EB304640C7F2D09D47C1B9D88C094C79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41490F9FD81166173B9DCBE65C7AA010 /* Pods-RCLuaDemo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
 			name = Debug;
 		};
-		ECCE507F13CAC79488AEEC75ED33922F /* Debug */ = {
+		F9267E644C28CB5275ADA153B89FFFA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1306BA2552A0046CDE802B4E09DA8808 /* RCExtension.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/RCExtension/RCExtension-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1742,44 +1869,6 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
-		};
-		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1787,8 +1876,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
-				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58852B49FA6B0944110A238FED400D15 /* Build configuration list for PBXNativeTarget "RCExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9267E644C28CB5275ADA153B89FFFA9 /* Debug */,
+				079A31A6C6EB57174D1C83E5B235C780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1796,8 +1894,8 @@
 		77CF2A7107BC61A2E90025871305961D /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9C97EB576CE94D4E00FD675005D2868 /* Debug */,
-				3C51C0C1DF1AF101E0EF749B8E660489 /* Release */,
+				17224E02F0E8CE2AC8EF6DDD7B535094 /* Debug */,
+				CF42542529F689B52406696B5784E1F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1805,8 +1903,8 @@
 		8C0F0C72028C90699D52A6CC95EDD21A /* Build configuration list for PBXNativeTarget "Pods-RCLuaDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07DB6C7B33A5925B7655FFE627068B90 /* Debug */,
-				6FA0093E2A5B4FF4AADB2192622D9600 /* Release */,
+				EB304640C7F2D09D47C1B9D88C094C79 /* Debug */,
+				3F495657D9748C6C9B07B66CE0A85F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1814,17 +1912,17 @@
 		A5835EA94BB6AEEB843F06EE73E473B0 /* Build configuration list for PBXNativeTarget "LuaViewSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A91F36D3BAC6E6C3C6C774F34FA1146F /* Debug */,
-				09DCE34E04BF914A6A2B929276DA6FB2 /* Release */,
+				56E12E7994FB7C6CA044C1B5ABC605A8 /* Debug */,
+				B4DDE12839C683A70B75338FDE5EC7A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F406E46E6EDBD169989E73E410ACFC31 /* Build configuration list for PBXNativeTarget "RCExtension" */ = {
+		D22D9D9F038BD1725DB31F83F4AF939F /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECCE507F13CAC79488AEEC75ED33922F /* Debug */,
-				CB91B20423EBDEB01757488B6B9AC0D5 /* Release */,
+				24ED7D73D47E7C13DEFF6242F0643CD5 /* Debug */,
+				41DB875760C488122BF5B26D3C314E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

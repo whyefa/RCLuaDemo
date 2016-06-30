@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		460AE83B6343ED60C83BCFA6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD1562193D7FCDE9399CD32 /* libPods.a */; };
+		51166B6E1D25055800A2BAE0 /* FlexBox1.lua in Resources */ = {isa = PBXBuildFile; fileRef = 51166B6D1D25055800A2BAE0 /* FlexBox1.lua */; };
+		51166B701D250AEE00A2BAE0 /* ViewChildren.lua in Resources */ = {isa = PBXBuildFile; fileRef = 51166B6F1D250AEE00A2BAE0 /* ViewChildren.lua */; };
+		51C3C4141D252A7200C54269 /* Timer in Resources */ = {isa = PBXBuildFile; fileRef = 51C3C4131D252A7200C54269 /* Timer */; };
 		57D2AB0BF0F123B64F6D0B17 /* libPods-RCLuaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1168DDDF017E3ADF04B969D /* libPods-RCLuaDemo.a */; };
 		8B11A6781D23B22E0013AA2F /* Button.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B11A6771D23B22E0013AA2F /* Button.lua */; };
 		8B1C7B7F1D24C9A300B403ED /* FlexBox.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C7B7E1D24C9A300B403ED /* FlexBox.lua */; };
@@ -35,13 +39,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51166B6D1D25055800A2BAE0 /* FlexBox1.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FlexBox1.lua; sourceTree = "<group>"; };
+		51166B6F1D250AEE00A2BAE0 /* ViewChildren.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ViewChildren.lua; sourceTree = "<group>"; };
+		51C3C4131D252A7200C54269 /* Timer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Timer; sourceTree = "<group>"; };
 		790770711898C66BB5B13DAA /* Pods-RCLuaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCLuaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCLuaDemo/Pods-RCLuaDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		8B11A6771D23B22E0013AA2F /* Button.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Button.lua; sourceTree = "<group>"; };
+		8B11A6771D23B22E0013AA2F /* Button.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Button.lua; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
 		8B1C7B7E1D24C9A300B403ED /* FlexBox.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FlexBox.lua; sourceTree = "<group>"; };
 		8B23D0C51D22225E00CDE6F2 /* RCLuaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLuaViewController.h; sourceTree = "<group>"; };
 		8B23D0C61D22225E00CDE6F2 /* RCLuaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLuaViewController.m; sourceTree = "<group>"; };
 		8B59D6471D239EB000CB8AAF /* ImageView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ImageView.lua; sourceTree = "<group>"; };
-		8B59D6491D239EBE00CB8AAF /* ScrollView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ScrollView.lua; sourceTree = "<group>"; };
+		8B59D6491D239EBE00CB8AAF /* ScrollView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ScrollView.lua; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
 		8B59D64B1D239ECA00CB8AAF /* TableView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TableView.lua; sourceTree = "<group>"; };
 		8B9F12021D2214C000C81B0C /* RCLuaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCLuaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9F12061D2214C000C81B0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,6 +74,7 @@
 		8BAD608D1D23D6B300991FA6 /* Alert.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Alert.lua; sourceTree = "<group>"; };
 		9F347C57CC37591353464EAF /* Pods-RCLuaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCLuaDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCLuaDemo/Pods-RCLuaDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B1168DDDF017E3ADF04B969D /* libPods-RCLuaDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCLuaDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD1562193D7FCDE9399CD32 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57D2AB0BF0F123B64F6D0B17 /* libPods-RCLuaDemo.a in Frameworks */,
+				460AE83B6343ED60C83BCFA6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +102,9 @@
 				8B59D6491D239EBE00CB8AAF /* ScrollView.lua */,
 				8BAD60711D23BECE00991FA6 /* Source */,
 				8B59D64B1D239ECA00CB8AAF /* TableView.lua */,
+				51166B6D1D25055800A2BAE0 /* FlexBox1.lua */,
+				51166B6F1D250AEE00A2BAE0 /* ViewChildren.lua */,
+				51C3C4131D252A7200C54269 /* Timer */,
 			);
 			path = Lua;
 			sourceTree = "<group>";
@@ -171,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				B1168DDDF017E3ADF04B969D /* libPods-RCLuaDemo.a */,
+				FBD1562193D7FCDE9399CD32 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,12 +195,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B9F12191D2214C000C81B0C /* Build configuration list for PBXNativeTarget "RCLuaDemo" */;
 			buildPhases = (
+				9130699B59B48884528035BF /* Check Pods Manifest.lock */,
 				311BA090B7D159811BE8EFFC /* [CP] Check Pods Manifest.lock */,
 				8B9F11FE1D2214C000C81B0C /* Sources */,
 				8B9F11FF1D2214C000C81B0C /* Frameworks */,
 				8B9F12001D2214C000C81B0C /* Resources */,
 				83ADAE99A5961795A9703B74 /* [CP] Embed Pods Frameworks */,
 				F393CC80BF33B5BDF311BCDE /* [CP] Copy Pods Resources */,
+				3EBD8D339AFC063B06B2095F /* Embed Pods Frameworks */,
+				39D37C23BB8A4703A7FEE706 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +225,8 @@
 				TargetAttributes = {
 					8B9F12011D2214C000C81B0C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = PA736A2R62;
+						DevelopmentTeamName = "Huan Li (Personal Team)";
 					};
 				};
 			};
@@ -243,11 +261,14 @@
 				8BAD607F1D23BECE00991FA6 /* img13.tiff in Resources */,
 				8BAD60851D23BEDA00991FA6 /* IconFontLabel.lua in Resources */,
 				8BAD60811D23BECE00991FA6 /* img4.tiff in Resources */,
+				51166B701D250AEE00A2BAE0 /* ViewChildren.lua in Resources */,
 				8BAD60871D23D32200991FA6 /* imageAnimate.lua in Resources */,
 				8BAD607B1D23BECE00991FA6 /* button0.png in Resources */,
 				8B59D6481D239EB000CB8AAF /* ImageView.lua in Resources */,
+				51C3C4141D252A7200C54269 /* Timer in Resources */,
 				8BAD607D1D23BECE00991FA6 /* img1.tiff in Resources */,
 				8B11A6781D23B22E0013AA2F /* Button.lua in Resources */,
+				51166B6E1D25055800A2BAE0 /* FlexBox1.lua in Resources */,
 				8BAD607C1D23BECE00991FA6 /* button1.png in Resources */,
 				8BAD607E1D23BECE00991FA6 /* img10.tiff in Resources */,
 				8B59D64C1D239ECA00CB8AAF /* TableView.lua in Resources */,
@@ -276,6 +297,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		39D37C23BB8A4703A7FEE706 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCLuaDemo/Pods-RCLuaDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EBD8D339AFC063B06B2095F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		83ADAE99A5961795A9703B74 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,6 +340,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCLuaDemo/Pods-RCLuaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9130699B59B48884528035BF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F393CC80BF33B5BDF311BCDE /* [CP] Copy Pods Resources */ = {
