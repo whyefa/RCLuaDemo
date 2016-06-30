@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		57D2AB0BF0F123B64F6D0B17 /* libPods-RCLuaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1168DDDF017E3ADF04B969D /* libPods-RCLuaDemo.a */; };
 		8B11A6781D23B22E0013AA2F /* Button.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B11A6771D23B22E0013AA2F /* Button.lua */; };
+		8B1C7B7F1D24C9A300B403ED /* FlexBox.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C7B7E1D24C9A300B403ED /* FlexBox.lua */; };
 		8B23D0C71D22225E00CDE6F2 /* RCLuaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B23D0C61D22225E00CDE6F2 /* RCLuaViewController.m */; };
 		8B59D6481D239EB000CB8AAF /* ImageView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B59D6471D239EB000CB8AAF /* ImageView.lua */; };
 		8B59D64A1D239EBE00CB8AAF /* ScrollView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B59D6491D239EBE00CB8AAF /* ScrollView.lua */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		790770711898C66BB5B13DAA /* Pods-RCLuaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCLuaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCLuaDemo/Pods-RCLuaDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8B11A6771D23B22E0013AA2F /* Button.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Button.lua; sourceTree = "<group>"; };
+		8B1C7B7E1D24C9A300B403ED /* FlexBox.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FlexBox.lua; sourceTree = "<group>"; };
 		8B23D0C51D22225E00CDE6F2 /* RCLuaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLuaViewController.h; sourceTree = "<group>"; };
 		8B23D0C61D22225E00CDE6F2 /* RCLuaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLuaViewController.m; sourceTree = "<group>"; };
 		8B59D6471D239EB000CB8AAF /* ImageView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ImageView.lua; sourceTree = "<group>"; };
@@ -84,12 +86,13 @@
 			children = (
 				8BAD608D1D23D6B300991FA6 /* Alert.lua */,
 				8B11A6771D23B22E0013AA2F /* Button.lua */,
+				8B1C7B7E1D24C9A300B403ED /* FlexBox.lua */,
 				8BAD60841D23BEDA00991FA6 /* IconFontLabel.lua */,
 				8BAD60861D23D32200991FA6 /* imageAnimate.lua */,
 				8B59D6471D239EB000CB8AAF /* ImageView.lua */,
 				8B59D6491D239EBE00CB8AAF /* ScrollView.lua */,
-				8B59D64B1D239ECA00CB8AAF /* TableView.lua */,
 				8BAD60711D23BECE00991FA6 /* Source */,
+				8B59D64B1D239ECA00CB8AAF /* TableView.lua */,
 			);
 			path = Lua;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				8B59D64A1D239EBE00CB8AAF /* ScrollView.lua in Resources */,
 				8B9F12151D2214C000C81B0C /* LaunchScreen.storyboard in Resources */,
 				8BAD60831D23BECE00991FA6 /* snow.png in Resources */,
+				8B1C7B7F1D24C9A300B403ED /* FlexBox.lua in Resources */,
 				8BAD608E1D23D6B300991FA6 /* Alert.lua in Resources */,
 				8BAD607F1D23BECE00991FA6 /* img13.tiff in Resources */,
 				8BAD60851D23BEDA00991FA6 /* IconFontLabel.lua in Resources */,
