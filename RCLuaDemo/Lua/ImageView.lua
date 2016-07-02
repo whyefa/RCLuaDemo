@@ -77,7 +77,7 @@ closeButton.callback(
 end);
 
 closeButton.title("关闭")
-closeButton.frame(0, 300, 100, 100)a
+closeButton.frame(0, 300, 100, 100)
 
 
 

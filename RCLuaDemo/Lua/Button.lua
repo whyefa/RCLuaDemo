@@ -19,8 +19,7 @@ button1 = createButton("Test", 10,10, 300, 60);
 button2 = Button();
 button2.backgroundColor(0xdddddd)
 button2.frame(10, 150, 100, 100);
-button2.image("https://g.alicdn.com/ju/lua/2.0.25/doc/icon.png",
-              "https://g.alicdn.com/ju/lua/2.0.25/doc/icon2.png");
+button2.image("http://d.lanrentuku.com/down/png/1604/6web-icons_512x512/screen.png","http://d.lanrentuku.com/down/png/1604/6web-icons_512x512/note.png");
 button2.callback(
     function()
         print("我是图片按钮")
