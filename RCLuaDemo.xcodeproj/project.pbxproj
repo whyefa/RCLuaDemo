@@ -145,7 +145,7 @@
 			path = delegate;
 			sourceTree = "<group>";
 		};
-		8B23D0C91D224B6100CDE6F2 /* Lua */ = {
+		512424F21D27AE07002F7BED /* Comp */ = {
 			isa = PBXGroup;
 			children = (
 				512424C91D27A9A2002F7BED /* Timer.lua */,
@@ -169,11 +169,19 @@
 				8BAD60861D23D32200991FA6 /* imageAnimate.lua */,
 				8B59D6471D239EB000CB8AAF /* ImageView.lua */,
 				8B59D6491D239EBE00CB8AAF /* ScrollView.lua */,
-				8BAD60711D23BECE00991FA6 /* Source */,
 				8B59D64B1D239ECA00CB8AAF /* TableView.lua */,
 				51166B6D1D25055800A2BAE0 /* FlexBox1.lua */,
 				51166B6F1D250AEE00A2BAE0 /* ViewChildren.lua */,
 				51C3C4131D252A7200C54269 /* Timer */,
+			);
+			name = Comp;
+			sourceTree = "<group>";
+		};
+		8B23D0C91D224B6100CDE6F2 /* Lua */ = {
+			isa = PBXGroup;
+			children = (
+				512424F21D27AE07002F7BED /* Comp */,
+				8BAD60711D23BECE00991FA6 /* Source */,
 			);
 			path = Lua;
 			sourceTree = "<group>";

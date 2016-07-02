@@ -19,7 +19,7 @@ button1 = createButton("Test", 10,10, 300, 60);
 button2 = Button();
 button2.backgroundColor(0xdddddd)
 button2.frame(10, 150, 100, 100);
-button2.image("http://d.lanrentuku.com/down/png/1604/6web-icons_512x512/screen.png","http://d.lanrentuku.com/down/png/1604/6web-icons_512x512/note.png");
+button2.image("http://e.hiphotos.baidu.com/zhidao/wh%3D450%2C600/sign=e7099ea99045d688a357baa091f25128/4ec2d5628535e5ddc3e5f24574c6a7efcf1b625a.jpg","http://e.hiphotos.baidu.com/zhidao/wh%3D450%2C600/sign=e7099ea99045d688a357baa091f25128/4ec2d5628535e5ddc3e5f24574c6a7efcf1b625a.jpg");
 button2.callback(
     function()
         print("我是图片按钮")

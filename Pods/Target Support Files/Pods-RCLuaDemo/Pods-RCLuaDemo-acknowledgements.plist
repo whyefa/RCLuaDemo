@@ -70,6 +70,34 @@ SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>Copyright (c) 2016 Olivier Poitrey rs@dailymotion.com
+ 
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+ 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+</string>
+			<key>Title</key>
+			<string>SDWebImage</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>GNU GPL
 
 GNU General Public Licence (GPL) &#26377;&#21487;&#33021;&#26159;&#24320;&#28304;&#30028;&#26368;&#24120;&#29992;&#30340;&#35768;&#21487;&#27169;&#24335;&#12290;GPL &#20445;&#35777;&#20102;&#25152;&#26377;&#24320;&#21457;&#32773;&#30340;&#26435;&#21033;&#65292;&#21516;&#26102;&#20026;&#20351;&#29992;&#32773;&#25552;&#20379;&#20102;&#36275;&#22815;&#30340;&#22797;&#21046;&#65292;&#20998;&#21457;&#65292;&#20462;&#25913;&#30340;&#26435;&#21033;&#65306;

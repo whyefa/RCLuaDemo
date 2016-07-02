@@ -1,5 +1,5 @@
 local http = Http()
-http.post("http://www.taobao.com",
+http.post("https://www.taobao.com",
     {
         UserId = "23234234",
         Year = "2016",
