@@ -28,6 +28,19 @@
 		512424EF1D27A9B6002F7BED /* RCLVCustomError.m in Sources */ = {isa = PBXBuildFile; fileRef = 512424E91D27A9B6002F7BED /* RCLVCustomError.m */; };
 		512424F01D27A9B6002F7BED /* RCLVCustomLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 512424EB1D27A9B6002F7BED /* RCLVCustomLoading.m */; };
 		512424F11D27A9B6002F7BED /* RCLVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 512424ED1D27A9B6002F7BED /* RCLVImage.m */; };
+		512424F51D27AFF0002F7BED /* Shake.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512424F41D27AFF0002F7BED /* Shake.lua */; };
+		512424F71D27B010002F7BED /* DownloadAndFile.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512424F61D27B010002F7BED /* DownloadAndFile.lua */; };
+		512424F91D27B01D002F7BED /* decodeUrl.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512424F81D27B01D002F7BED /* decodeUrl.lua */; };
+		512424FB1D27B029002F7BED /* TestUnit.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512424FA1D27B029002F7BED /* TestUnit.lua */; };
+		512424FD1D27B03C002F7BED /* AnimateFire.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512424FC1D27B03C002F7BED /* AnimateFire.lua */; };
+		512424FF1D27B049002F7BED /* AnimateLizi.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512424FE1D27B049002F7BED /* AnimateLizi.lua */; };
+		512425011D27B056002F7BED /* AnimateSnow.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512425001D27B056002F7BED /* AnimateSnow.lua */; };
+		512425031D27B060002F7BED /* Animator.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512425021D27B060002F7BED /* Animator.lua */; };
+		512425091D27B4E5002F7BED /* test_2_unit in Resources */ = {isa = PBXBuildFile; fileRef = 512425081D27B4E5002F7BED /* test_2_unit */; };
+		5124250F1D27B5B3002F7BED /* color1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5124250B1D27B5B3002F7BED /* color1.png */; };
+		512425101D27B5B3002F7BED /* color2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5124250C1D27B5B3002F7BED /* color2.png */; };
+		512425121D27B5B3002F7BED /* lazhu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5124250E1D27B5B3002F7BED /* lazhu.png */; };
+		512425141D27B5C4002F7BED /* init.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512425131D27B5C4002F7BED /* init.lua */; };
 		51C3C4141D252A7200C54269 /* Timer in Resources */ = {isa = PBXBuildFile; fileRef = 51C3C4131D252A7200C54269 /* Timer */; };
 		57D2AB0BF0F123B64F6D0B17 /* libPods-RCLuaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1168DDDF017E3ADF04B969D /* libPods-RCLuaDemo.a */; };
 		8B11A6781D23B22E0013AA2F /* Button.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B11A6771D23B22E0013AA2F /* Button.lua */; };
@@ -81,6 +94,19 @@
 		512424EB1D27A9B6002F7BED /* RCLVCustomLoading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLVCustomLoading.m; sourceTree = "<group>"; };
 		512424EC1D27A9B6002F7BED /* RCLVImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLVImage.h; sourceTree = "<group>"; };
 		512424ED1D27A9B6002F7BED /* RCLVImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLVImage.m; sourceTree = "<group>"; };
+		512424F41D27AFF0002F7BED /* Shake.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shake.lua; sourceTree = "<group>"; };
+		512424F61D27B010002F7BED /* DownloadAndFile.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DownloadAndFile.lua; sourceTree = "<group>"; };
+		512424F81D27B01D002F7BED /* decodeUrl.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = decodeUrl.lua; sourceTree = "<group>"; };
+		512424FA1D27B029002F7BED /* TestUnit.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestUnit.lua; sourceTree = "<group>"; };
+		512424FC1D27B03C002F7BED /* AnimateFire.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnimateFire.lua; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
+		512424FE1D27B049002F7BED /* AnimateLizi.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnimateLizi.lua; sourceTree = "<group>"; };
+		512425001D27B056002F7BED /* AnimateSnow.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnimateSnow.lua; sourceTree = "<group>"; };
+		512425021D27B060002F7BED /* Animator.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Animator.lua; sourceTree = "<group>"; };
+		512425081D27B4E5002F7BED /* test_2_unit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_2_unit; sourceTree = "<group>"; };
+		5124250B1D27B5B3002F7BED /* color1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color1.png; sourceTree = "<group>"; };
+		5124250C1D27B5B3002F7BED /* color2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color2.png; sourceTree = "<group>"; };
+		5124250E1D27B5B3002F7BED /* lazhu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lazhu.png; sourceTree = "<group>"; };
+		512425131D27B5C4002F7BED /* init.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = init.lua; sourceTree = "<group>"; };
 		51C3C4131D252A7200C54269 /* Timer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Timer; sourceTree = "<group>"; };
 		790770711898C66BB5B13DAA /* Pods-RCLuaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCLuaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCLuaDemo/Pods-RCLuaDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8B11A6771D23B22E0013AA2F /* Button.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Button.lua; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
@@ -177,11 +203,32 @@
 			name = Comp;
 			sourceTree = "<group>";
 		};
+		5124250A1D27B5B3002F7BED /* candle */ = {
+			isa = PBXGroup;
+			children = (
+				5124250B1D27B5B3002F7BED /* color1.png */,
+				5124250C1D27B5B3002F7BED /* color2.png */,
+				5124250E1D27B5B3002F7BED /* lazhu.png */,
+				512425131D27B5C4002F7BED /* init.lua */,
+			);
+			path = candle;
+			sourceTree = "<group>";
+		};
 		8B23D0C91D224B6100CDE6F2 /* Lua */ = {
 			isa = PBXGroup;
 			children = (
+				5124250A1D27B5B3002F7BED /* candle */,
 				512424F21D27AE07002F7BED /* Comp */,
 				8BAD60711D23BECE00991FA6 /* Source */,
+				512424F41D27AFF0002F7BED /* Shake.lua */,
+				512424F61D27B010002F7BED /* DownloadAndFile.lua */,
+				512424F81D27B01D002F7BED /* decodeUrl.lua */,
+				512424FA1D27B029002F7BED /* TestUnit.lua */,
+				512424FC1D27B03C002F7BED /* AnimateFire.lua */,
+				512424FE1D27B049002F7BED /* AnimateLizi.lua */,
+				512425001D27B056002F7BED /* AnimateSnow.lua */,
+				512425021D27B060002F7BED /* Animator.lua */,
+				512425081D27B4E5002F7BED /* test_2_unit */,
 			);
 			path = Lua;
 			sourceTree = "<group>";
@@ -333,28 +380,38 @@
 			files = (
 				8B59D64A1D239EBE00CB8AAF /* ScrollView.lua in Resources */,
 				8B9F12151D2214C000C81B0C /* LaunchScreen.storyboard in Resources */,
+				512425031D27B060002F7BED /* Animator.lua in Resources */,
 				8BAD60831D23BECE00991FA6 /* snow.png in Resources */,
 				512424DD1D27A9A2002F7BED /* LoadingIndicator.lua in Resources */,
+				512424F71D27B010002F7BED /* DownloadAndFile.lua in Resources */,
 				512424E31D27A9A2002F7BED /* CallOC.lua in Resources */,
 				8B1C7B7F1D24C9A300B403ED /* FlexBox.lua in Resources */,
 				8BAD608E1D23D6B300991FA6 /* Alert.lua in Resources */,
 				8BAD607F1D23BECE00991FA6 /* img13.tiff in Resources */,
+				512425011D27B056002F7BED /* AnimateSnow.lua in Resources */,
 				8BAD60851D23BEDA00991FA6 /* IconFontLabel.lua in Resources */,
 				512424D81D27A9A2002F7BED /* Table.lua in Resources */,
 				8BAD60811D23BECE00991FA6 /* img4.tiff in Resources */,
+				512425101D27B5B3002F7BED /* color2.png in Resources */,
 				51166B701D250AEE00A2BAE0 /* ViewChildren.lua in Resources */,
 				512424DB1D27A9A2002F7BED /* Navigation.lua in Resources */,
 				512424E11D27A9A2002F7BED /* Customloading.lua in Resources */,
 				512424E41D27A9A2002F7BED /* AudioPlayer.lua in Resources */,
+				5124250F1D27B5B3002F7BED /* color1.png in Resources */,
+				512424FD1D27B03C002F7BED /* AnimateFire.lua in Resources */,
 				512424DE1D27A9A2002F7BED /* Json.lua in Resources */,
 				8BAD60871D23D32200991FA6 /* imageAnimate.lua in Resources */,
+				512425091D27B4E5002F7BED /* test_2_unit in Resources */,
 				8BAD607B1D23BECE00991FA6 /* button0.png in Resources */,
 				8B59D6481D239EB000CB8AAF /* ImageView.lua in Resources */,
 				512424E01D27A9A2002F7BED /* FlxNode.lua in Resources */,
+				512424FB1D27B029002F7BED /* TestUnit.lua in Resources */,
 				51C3C4141D252A7200C54269 /* Timer in Resources */,
 				512424E21D27A9A2002F7BED /* CustomError.lua in Resources */,
+				512425141D27B5C4002F7BED /* init.lua in Resources */,
 				8BAD607D1D23BECE00991FA6 /* img1.tiff in Resources */,
 				512424DA1D27A9A2002F7BED /* requestFromHttp.lua in Resources */,
+				512424FF1D27B049002F7BED /* AnimateLizi.lua in Resources */,
 				8B11A6781D23B22E0013AA2F /* Button.lua in Resources */,
 				51166B6E1D25055800A2BAE0 /* FlexBox1.lua in Resources */,
 				8BAD607C1D23BECE00991FA6 /* button1.png in Resources */,
@@ -364,9 +421,12 @@
 				512424D71D27A9A2002F7BED /* Timer.lua in Resources */,
 				8B59D64C1D239ECA00CB8AAF /* TableView.lua in Resources */,
 				8BAD60801D23BECE00991FA6 /* img16.tiff in Resources */,
+				512424F51D27AFF0002F7BED /* Shake.lua in Resources */,
 				8B9F12121D2214C000C81B0C /* Assets.xcassets in Resources */,
+				512424F91D27B01D002F7BED /* decodeUrl.lua in Resources */,
 				512424DC1D27A9A2002F7BED /* LuaBox.lua in Resources */,
 				8B9F12101D2214C000C81B0C /* Main.storyboard in Resources */,
+				512425121D27B5B3002F7BED /* lazhu.png in Resources */,
 				8BAD60821D23BECE00991FA6 /* img7.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
