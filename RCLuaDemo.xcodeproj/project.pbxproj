@@ -36,11 +36,6 @@
 		512424FF1D27B049002F7BED /* AnimateLizi.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512424FE1D27B049002F7BED /* AnimateLizi.lua */; };
 		512425011D27B056002F7BED /* AnimateSnow.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512425001D27B056002F7BED /* AnimateSnow.lua */; };
 		512425031D27B060002F7BED /* Animator.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512425021D27B060002F7BED /* Animator.lua */; };
-		512425091D27B4E5002F7BED /* test_2_unit in Resources */ = {isa = PBXBuildFile; fileRef = 512425081D27B4E5002F7BED /* test_2_unit */; };
-		5124250F1D27B5B3002F7BED /* color1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5124250B1D27B5B3002F7BED /* color1.png */; };
-		512425101D27B5B3002F7BED /* color2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5124250C1D27B5B3002F7BED /* color2.png */; };
-		512425121D27B5B3002F7BED /* lazhu.png in Resources */ = {isa = PBXBuildFile; fileRef = 5124250E1D27B5B3002F7BED /* lazhu.png */; };
-		512425141D27B5C4002F7BED /* init.lua in Resources */ = {isa = PBXBuildFile; fileRef = 512425131D27B5C4002F7BED /* init.lua */; };
 		51C3C4141D252A7200C54269 /* Timer in Resources */ = {isa = PBXBuildFile; fileRef = 51C3C4131D252A7200C54269 /* Timer */; };
 		57D2AB0BF0F123B64F6D0B17 /* libPods-RCLuaDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1168DDDF017E3ADF04B969D /* libPods-RCLuaDemo.a */; };
 		8B11A6781D23B22E0013AA2F /* Button.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B11A6771D23B22E0013AA2F /* Button.lua */; };
@@ -49,6 +44,7 @@
 		8B59D6481D239EB000CB8AAF /* ImageView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B59D6471D239EB000CB8AAF /* ImageView.lua */; };
 		8B59D64A1D239EBE00CB8AAF /* ScrollView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B59D6491D239EBE00CB8AAF /* ScrollView.lua */; };
 		8B59D64C1D239ECA00CB8AAF /* TableView.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8B59D64B1D239ECA00CB8AAF /* TableView.lua */; };
+		8B7940B71D29FE3800957635 /* candle in Resources */ = {isa = PBXBuildFile; fileRef = 8B7940B61D29FE3800957635 /* candle */; };
 		8B9F12071D2214C000C81B0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F12061D2214C000C81B0C /* main.m */; };
 		8B9F120A1D2214C000C81B0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F12091D2214C000C81B0C /* AppDelegate.m */; };
 		8B9F120D1D2214C000C81B0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9F120C1D2214C000C81B0C /* ViewController.m */; };
@@ -98,15 +94,10 @@
 		512424F61D27B010002F7BED /* DownloadAndFile.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DownloadAndFile.lua; sourceTree = "<group>"; };
 		512424F81D27B01D002F7BED /* decodeUrl.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = decodeUrl.lua; sourceTree = "<group>"; };
 		512424FA1D27B029002F7BED /* TestUnit.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestUnit.lua; sourceTree = "<group>"; };
-		512424FC1D27B03C002F7BED /* AnimateFire.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnimateFire.lua; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
+		512424FC1D27B03C002F7BED /* AnimateFire.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnimateFire.lua; sourceTree = "<group>"; };
 		512424FE1D27B049002F7BED /* AnimateLizi.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnimateLizi.lua; sourceTree = "<group>"; };
 		512425001D27B056002F7BED /* AnimateSnow.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AnimateSnow.lua; sourceTree = "<group>"; };
 		512425021D27B060002F7BED /* Animator.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Animator.lua; sourceTree = "<group>"; };
-		512425081D27B4E5002F7BED /* test_2_unit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_2_unit; sourceTree = "<group>"; };
-		5124250B1D27B5B3002F7BED /* color1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color1.png; sourceTree = "<group>"; };
-		5124250C1D27B5B3002F7BED /* color2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color2.png; sourceTree = "<group>"; };
-		5124250E1D27B5B3002F7BED /* lazhu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lazhu.png; sourceTree = "<group>"; };
-		512425131D27B5C4002F7BED /* init.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = init.lua; sourceTree = "<group>"; };
 		51C3C4131D252A7200C54269 /* Timer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Timer; sourceTree = "<group>"; };
 		790770711898C66BB5B13DAA /* Pods-RCLuaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCLuaDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCLuaDemo/Pods-RCLuaDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8B11A6771D23B22E0013AA2F /* Button.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Button.lua; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
@@ -116,6 +107,7 @@
 		8B59D6471D239EB000CB8AAF /* ImageView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ImageView.lua; sourceTree = "<group>"; };
 		8B59D6491D239EBE00CB8AAF /* ScrollView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ScrollView.lua; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
 		8B59D64B1D239ECA00CB8AAF /* TableView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TableView.lua; sourceTree = "<group>"; };
+		8B7940B61D29FE3800957635 /* candle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = candle; sourceTree = "<group>"; };
 		8B9F12021D2214C000C81B0C /* RCLuaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCLuaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9F12061D2214C000C81B0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B9F12081D2214C000C81B0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -203,21 +195,10 @@
 			name = Comp;
 			sourceTree = "<group>";
 		};
-		5124250A1D27B5B3002F7BED /* candle */ = {
-			isa = PBXGroup;
-			children = (
-				5124250B1D27B5B3002F7BED /* color1.png */,
-				5124250C1D27B5B3002F7BED /* color2.png */,
-				5124250E1D27B5B3002F7BED /* lazhu.png */,
-				512425131D27B5C4002F7BED /* init.lua */,
-			);
-			path = candle;
-			sourceTree = "<group>";
-		};
 		8B23D0C91D224B6100CDE6F2 /* Lua */ = {
 			isa = PBXGroup;
 			children = (
-				5124250A1D27B5B3002F7BED /* candle */,
+				8B7940B61D29FE3800957635 /* candle */,
 				512424F21D27AE07002F7BED /* Comp */,
 				8BAD60711D23BECE00991FA6 /* Source */,
 				512424F41D27AFF0002F7BED /* Shake.lua */,
@@ -228,7 +209,6 @@
 				512424FE1D27B049002F7BED /* AnimateLizi.lua */,
 				512425001D27B056002F7BED /* AnimateSnow.lua */,
 				512425021D27B060002F7BED /* Animator.lua */,
-				512425081D27B4E5002F7BED /* test_2_unit */,
 			);
 			path = Lua;
 			sourceTree = "<group>";
@@ -350,7 +330,7 @@
 				TargetAttributes = {
 					8B9F12011D2214C000C81B0C = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = PA736A2R62;
+						DevelopmentTeam = D93B77WBRC;
 						DevelopmentTeamName = "Huan Li (Personal Team)";
 					};
 				};
@@ -392,23 +372,20 @@
 				8BAD60851D23BEDA00991FA6 /* IconFontLabel.lua in Resources */,
 				512424D81D27A9A2002F7BED /* Table.lua in Resources */,
 				8BAD60811D23BECE00991FA6 /* img4.tiff in Resources */,
-				512425101D27B5B3002F7BED /* color2.png in Resources */,
 				51166B701D250AEE00A2BAE0 /* ViewChildren.lua in Resources */,
 				512424DB1D27A9A2002F7BED /* Navigation.lua in Resources */,
 				512424E11D27A9A2002F7BED /* Customloading.lua in Resources */,
 				512424E41D27A9A2002F7BED /* AudioPlayer.lua in Resources */,
-				5124250F1D27B5B3002F7BED /* color1.png in Resources */,
 				512424FD1D27B03C002F7BED /* AnimateFire.lua in Resources */,
 				512424DE1D27A9A2002F7BED /* Json.lua in Resources */,
 				8BAD60871D23D32200991FA6 /* imageAnimate.lua in Resources */,
-				512425091D27B4E5002F7BED /* test_2_unit in Resources */,
 				8BAD607B1D23BECE00991FA6 /* button0.png in Resources */,
 				8B59D6481D239EB000CB8AAF /* ImageView.lua in Resources */,
 				512424E01D27A9A2002F7BED /* FlxNode.lua in Resources */,
 				512424FB1D27B029002F7BED /* TestUnit.lua in Resources */,
+				8B7940B71D29FE3800957635 /* candle in Resources */,
 				51C3C4141D252A7200C54269 /* Timer in Resources */,
 				512424E21D27A9A2002F7BED /* CustomError.lua in Resources */,
-				512425141D27B5C4002F7BED /* init.lua in Resources */,
 				8BAD607D1D23BECE00991FA6 /* img1.tiff in Resources */,
 				512424DA1D27A9A2002F7BED /* requestFromHttp.lua in Resources */,
 				512424FF1D27B049002F7BED /* AnimateLizi.lua in Resources */,
@@ -426,7 +403,6 @@
 				512424F91D27B01D002F7BED /* decodeUrl.lua in Resources */,
 				512424DC1D27A9A2002F7BED /* LuaBox.lua in Resources */,
 				8B9F12101D2214C000C81B0C /* Main.storyboard in Resources */,
-				512425121D27B5B3002F7BED /* lazhu.png in Resources */,
 				8BAD60821D23BECE00991FA6 /* img7.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -651,11 +627,14 @@
 			baseConfigurationReference = 790770711898C66BB5B13DAA /* Pods-RCLuaDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RCLuaDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rc.RCLuaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -664,11 +643,14 @@
 			baseConfigurationReference = 9F347C57CC37591353464EAF /* Pods-RCLuaDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = RCLuaDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rc.RCLuaDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
