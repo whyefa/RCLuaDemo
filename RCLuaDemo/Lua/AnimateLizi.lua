@@ -29,8 +29,14 @@ function snowCreater(  )
 	end
 
 	function snow.randomColor( )
-		return 0xff
+
+        local r = self.xNum()
+        return tonumber(r)
 	end
+
+    function snow.xNum()
+        return string.format("%#x",math:random(0, 255*255*256))
+    end
 
 	function snow.nextXYAndColor(  )
 		local len = 160
