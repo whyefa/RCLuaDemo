@@ -68,7 +68,7 @@
 /* Begin PBXFileReference section */
 		51166B6D1D25055800A2BAE0 /* FlexBox1.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FlexBox1.lua; sourceTree = "<group>"; };
 		51166B6F1D250AEE00A2BAE0 /* ViewChildren.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ViewChildren.lua; sourceTree = "<group>"; };
-		512424C91D27A9A2002F7BED /* Timer.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Timer.lua; sourceTree = "<group>"; };
+		512424C91D27A9A2002F7BED /* Timer.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Timer.lua; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.html; };
 		512424CA1D27A9A2002F7BED /* Table.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Table.lua; sourceTree = "<group>"; };
 		512424CB1D27A9A2002F7BED /* System.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = System.lua; sourceTree = "<group>"; };
 		512424CC1D27A9A2002F7BED /* requestFromHttp.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = requestFromHttp.lua; sourceTree = "<group>"; };

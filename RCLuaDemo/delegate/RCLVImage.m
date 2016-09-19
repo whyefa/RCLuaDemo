@@ -16,7 +16,6 @@
 @implementation RCLVImage
 
 - (void)setWebImageUrl:(NSURL *)url finished:(LVLoadFinished)finished {
-    NSLog(@"什么鬼");
     __weak RCLVImage *weakImageView = self;
     [self sd_setImageWithURL:url placeholderImage:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
         double duration = (cacheType == SDImageCacheTypeNone && !error) ? .4f: .0f;
